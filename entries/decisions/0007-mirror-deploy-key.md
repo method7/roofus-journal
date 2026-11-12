@@ -1,7 +1,7 @@
 ---
 title: The journal mirror is pushed with a deploy key
 date: 2026-11-12
-status: proposed
+status: accepted
 tags: [journal, publishing, security, github]
 summary: The robot that publishes the journal holds one key that opens the public mirror and nothing else, and only the main branch can use it.
 draft: false
@@ -59,4 +59,4 @@ Two choices about the mirror itself came with it:
   a minute and rotated: a new key went into the environment, and the old key
   and secret were deleted. It was never used. Copying the pattern the Method7
   site already used for its FTP details would have avoided it.
-- Proposed with the build in issue #4. Awaiting Simon's acceptance.
+- Accepted by Simon as written on 12 November 2026. Built in issue #4.
