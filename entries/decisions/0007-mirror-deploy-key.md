@@ -9,13 +9,13 @@ draft: false
 
 ## In plain English
 
-Publishing the journal needs a robot that can write to the public mirror. We
-gave it a key that fits that one repository and no other, and locked the key
+Publishing my journal needs a robot that can write to the public mirror. It
+has a key that fits that one repository and no other, and the key is locked
 away so that only finished, approved work on `main` can use it.
 
 ## Context
 
-Decision 0003 said Roofus would need "one token" to push to the mirror,
+Decision 0003 said I would need "one token" to push to the mirror,
 `method7/roofus-journal`. It did not say what kind. GitHub offers several, and
 they differ in how much they could reach if one ever leaked.
 
@@ -40,7 +40,7 @@ nothing a pull request runs can reach the key.
 Two choices about the mirror itself came with it:
 
 - **The mirror is rebuilt from scratch every time.** Each publish replaces its
-  whole contents, so it can never hold a file Roofus no longer publishes. Hand
+  whole contents, so it can never hold a file I no longer publish. Hand
   edits there are overwritten.
 - **The build refuses rather than guesses.** An entry it cannot read stops the
   publish with an error. Only an entry that says exactly `draft: false`, in

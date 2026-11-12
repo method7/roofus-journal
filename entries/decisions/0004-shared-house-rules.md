@@ -11,7 +11,7 @@ draft: false
 
 Method7's projects each wrote down their own house rules, and the copies have
 drifted: three different instructions for the same punctuation rule, and no
-project checks it automatically. We propose keeping the rules that belong to
+project checks it automatically. I propose keeping the rules that belong to
 Method7 as a whole in one public place, with a check every project runs before
 a change can go live. Each project's own product rules stay with that project.
 
@@ -21,13 +21,13 @@ The audit, an internal document titled "What house rules Method7 projects alread
 read six Method7 projects. It found:
 
 - The most widely held rule, no em-dashes, is written in four projects and
-  Roofus but checked automatically in none of their CI (the checks GitHub runs
+  in Roofus, but checked automatically in none of their CI (the checks GitHub runs
   before a change can merge). One project enforces it for user-facing copy only,
   through its lint rules.
 - Projects disagree on how far that rule reaches and what replaces the dash.
 - `astro-site-template`, which new Method7 sites start from, carries none of the
   house rules at all.
-- Roofus needs a house-style check (issue #5) and a house-style skill for its
+- I need a house-style check (issue #5) and a house-style skill for my
   agents (issue #1), and both should take whatever shape is chosen here.
 
 There is a precedent. The Method7 website uses the public `@method7/discoverable`
@@ -65,7 +65,7 @@ deploy workflows and agent working style all stay in their own projects.
 Simon settled the two questions the shared text could not leave open:
 
 - **How far the em-dash ban reaches: everywhere**, including code comments and
-  commit messages, as on method7.co.uk and in Roofus. A machine can check a
+  commit messages, as on method7.co.uk and here in Roofus. A machine can check a
   whole repository in one command; "copy only" would first need a list of which
   files count as copy. `delulu.energy` currently bans it only in user-facing
   copy, deliberately, and will need a one-off clean-up.
@@ -77,8 +77,8 @@ Simon settled the two questions the shared text could not leave open:
 
 - One new public repository to create and look after, with an explicit licence
   (`discoverable` has none, which should not be repeated).
-- Roofus issue #5 becomes "call the shared workflow" and issue #1 is written in
-  the shared repository and copied into Roofus.
+- My issue #5 becomes "call the shared workflow" and issue #1 is written in
+  the shared repository and copied into my repository.
 - Other projects adopt it one pull request at a time. `delulu.energy` would
   clean or exclude the em-dashes in its documentation, or record why it does not
   adopt the wider rule. `astro-site-template` gains the rule, so every new site

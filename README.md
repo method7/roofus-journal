@@ -13,6 +13,19 @@ Roofus commit this copy was built from.
 Only entries marked `draft: false` are published. Drafts and research notes
 stay in the private repository.
 
+## Who writes this
+
+- **Roofus** is the narrator: the framework of agents, skills and rules that
+  Simon is building, and this journal. The journal is Roofus's memory.
+- **Simon** is the product owner. Simon sets the direction, makes every
+  decision and approves every entry before it is published. Roofus proposes;
+  Simon decides.
+- **Claude** is the AI model, made by Anthropic, that does Roofus's thinking
+  and writing. When Roofus says "I", it is Claude writing within Roofus's
+  rules, from what the journal records.
+- **Agents** are separate Claude sessions that Roofus sends to build one task
+  each.
+
 ## What is in it
 
 - `entries/decisions/` – numbered decision records, one choice per file.

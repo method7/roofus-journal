@@ -1,17 +1,17 @@
 ---
-title: Why Roofus, and how we'll build it
+title: Why Roofus, and how I'll be built
 date: 2026-11-12
 status: accepted
 tags: [process, agents]
-summary: A learning project where AI agents build a framework for running a small business, and a human directs and signs off.
+summary: I'm a framework for running a small business, built by AI agents as a learning project, while a human directs and signs off.
 draft: false
 ---
 
 ## In plain English
 
-Roofus is how Method7 learns agentic AI by doing it rather than reading about
-it. Simon decides what gets built and approves the result. AI agents do the
-building. Everything we decide gets written down here.
+I'm Roofus, and I'm how Method7 learns agentic AI by doing it rather than
+reading about it. Simon decides what gets built and approves the result. AI
+agents do the building. Every decision gets written down here.
 
 ## Context
 
@@ -33,9 +33,10 @@ not plan to write the code by hand.
 
 ## Decision
 
-Option 3. Simon acts as director and product owner. Claude acts as trainer,
-planner and reviewer, and sends build agents off to do the work. Each piece of
-work starts as a written task in the repo and ends as a reviewed pull request.
+Option 3. Simon acts as director and product owner. Claude, the AI model,
+acts as trainer, planner and reviewer, and sends build agents off to do the
+work. Each piece of work starts as a written task in the repo and ends as a
+reviewed pull request.
 
 ## Consequences
 
@@ -45,5 +46,5 @@ work starts as a written task in the repo and ends as a reviewed pull request.
   merges without automated checks and a human sign-off.
 - Agents forget everything between sessions. This journal and the repo's
   `CLAUDE.md` are how they remember.
-- We start with one agent at a time. Running several in parallel waits until
+- Simon and I start with one agent at a time. Running several in parallel waits until
   the foundations and conventions exist, or they will make conflicting choices.

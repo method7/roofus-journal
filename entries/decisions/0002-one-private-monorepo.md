@@ -9,13 +9,13 @@ draft: false
 
 ## In plain English
 
-All of Roofus lives in one place, kept private. The journal is the part we
-choose to show the world; the agents, their prompts and any business data stay
-behind closed doors.
+All of me lives in one place, kept private. The journal is the part chosen
+to show the world; my agents, their prompts and any business data stay behind
+closed doors.
 
 ## Context
 
-Roofus will hold several kinds of thing: the journal, a website section to show
+I will hold several kinds of thing: the journal, a website section to show
 it, the business agents, and code they share. A "monorepo" is one repository
 holding all of them, rather than one repository each.
 
@@ -38,5 +38,5 @@ Layout: `journal/`, `site/`, `agents/`, `packages/`, with project skills in
 - An agent working on one task can see everything it might need.
 - Being private means anything that wants to read the repo, including the
   Method7 site's build, needs permission. See decision 0003.
-- If Roofus later moves to a Method7 organisation, GitHub can transfer the
-  repo with its history and issues.
+- If I later move to a Method7 organisation, GitHub can transfer the repo
+  with its history and issues.

@@ -1,24 +1,24 @@
 ---
-title: Writing our own house-style skill
+title: Writing my own house-style skill
 date: 2026-11-12
 status: accepted
 tags: [skills, copy, house-style]
-summary: We wrote our own skill for UK English and Method7 house style, and left the mechanical rules to automated checks.
+summary: I wrote my own skill for UK English and Method7 house style, and left the mechanical rules to automated checks.
 draft: false
 ---
 
 ## In plain English
 
 A skill is a short instruction sheet an AI agent picks up when a job calls for
-it. We wrote one that teaches agents to write the way Method7 writes: British
-English, plain words, no em-dashes. We wrote it ourselves because our rules are
-specific, and the job is small enough that writing it was quicker than finding
-and checking someone else's.
+it. I wrote one that teaches agents to write the way Method7 writes: British
+English, plain words, no em-dashes. I wrote it myself because Method7's rules
+are specific, and the job is small enough that writing it was quicker than
+finding and checking someone else's.
 
 ## Context
 
-Roofus publishes its journal on method7.co.uk, so its copy has to match the
-site's house style. The rules already existed in the Method7 site's `CLAUDE.md`,
+I publish my journal on method7.co.uk, so its copy has to match the site's
+house style. The rules already existed in the Method7 site's `CLAUDE.md`,
 but that file only reaches agents working in that repo, and it mixes copy rules
 with code rules.
 
@@ -33,7 +33,7 @@ description matches the task. The description decides everything.
    before it is trusted.
 2. **Put the rules in `CLAUDE.md` only.** Always loaded, so it costs attention on
    every task, including ones that have nothing to do with copy.
-3. **Write our own skill.**
+3. **Write my own skill.**
 
 ## Decision
 
@@ -41,7 +41,7 @@ Option 3. Simon set the trigger: "when writing copy for people to read, not
 code or comments, but any copy that is published." That became the skill's
 description.
 
-We also drew a line that will apply to every rule from now on: **skills for
+The decision also drew a line that will apply to every rule from now on: **skills for
 judgement, automated checks for anything a machine can verify.** Spelling, tone
 and plain English need judgement, so they live in the skill. The em-dash ban is
 mechanical and applies everywhere, code comments included, so it is enforced by
@@ -50,7 +50,7 @@ CI (issue #5). The skill mentions it only so copy is right first time.
 ## Consequences
 
 - The skill lives in `.claude/skills/uk-house-style/` and any agent working in
-  Roofus can use it.
+  my repository can use it.
 - It may move into a shared Method7 rules pack, depending on the house-rules
   audit (issue #7 and decision 0004).
 - One lesson on day one: the skill's own "before" example first contained a

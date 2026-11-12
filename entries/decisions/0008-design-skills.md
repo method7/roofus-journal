@@ -3,16 +3,17 @@ title: Which design skills build the journal pages
 date: 2026-11-12
 status: accepted
 tags: [skills, design, site]
-summary: The agent that builds the journal pages will use Anthropic's design skill for how to work and a written brief for what to make, rather than a ready-made theme.
+summary: The agent I send to build the journal pages will use Anthropic's design skill for how to work and a written brief for what to make, rather than a ready-made theme.
 draft: false
 ---
 
 ## In plain English
 
-Before an agent designs the journal pages on method7.co.uk, it needs guidance
-on how to design well, and on what this particular site looks like. We chose
-one design skill from Anthropic for the first job and wrote our own brief for
-the second. Nothing new is installed.
+Before one of my agents designs the journal pages on method7.co.uk, it needs
+guidance on how to design well, and on what this particular site looks like.
+The choice, accepted by Simon, is one design skill from Anthropic for the
+first job, and a brief written for this site for the second. Nothing new is
+installed.
 
 ## Context
 
@@ -43,7 +44,7 @@ before being judged, and none was installed.
 3. **`webapp-testing`, from Anthropic** (same repository, Apache 2.0). Ships
    Python scripts that start a web server and drive a browser to take
    screenshots. It tells the agent to run its scripts without reading them
-   first, which breaks our rule for outside code. It also needs a browser
+   first, which breaks the rule here for outside code. It also needs a browser
    library the site does not have, and the browser tools Claude already has
    can take the same screenshots.
 
@@ -56,9 +57,9 @@ runs scripts that install a different set of web tools.
 Option 1, for process only, with `uk-house-style` for every word on the
 pages. What to build comes from `journal/design-brief.md`, which is written
 against the site's own design tokens, components and checks, and overrides
-the skill wherever they disagree. We decline options 2 and 3.
+the skill wherever they disagree. Options 2 and 3 are declined.
 
-We are not writing a Method7 design skill yet. The brief covers one build.
+I'm not writing a Method7 design skill yet. The brief covers one build.
 If a second page build needs the same guidance, the brief's reusable parts
 (tokens, components, what the site's checks demand) become a skill, shaped
 like option 2.

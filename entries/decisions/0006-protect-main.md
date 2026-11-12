@@ -9,14 +9,14 @@ draft: false
 
 ## In plain English
 
-Until now, our process held only because everyone followed it. Now GitHub
+Until now, my process held only because everyone followed it. Now GitHub
 enforces it: every change goes through a pull request, the automatic checks
 must pass before the merge button works, and nobody can skip that, including
 the owner. An agent using Simon's login can't skip it either.
 
 ## Context
 
-Roofus had a process (decision 0001) and automatic checks (issue #5), but a
+I had a process (decision 0001) and automatic checks (issue #5), but a
 failing check was only a warning, and anyone with access could still push
 straight to `main`. Agents act through Simon's GitHub login, so "anyone with
 access" includes every agent.
@@ -42,7 +42,7 @@ Option 3, applied by Simon on 12 November 2026. The ruleset `Protect main`:
 **Required approvals are set to 0, on purpose.** Agents open pull requests as
 Simon, and GitHub does not let anyone approve their own pull request, so
 requiring an approval would lock Simon out. Simon's approval is the act of
-merging. Claude Code's own safety check stops agents merging on his behalf.
+merging. Claude Code's own safety check stops agents merging on Simon's behalf.
 
 ## Consequences
 
@@ -54,8 +54,8 @@ merging. Claude Code's own safety check stops agents merging on his behalf.
   then wait for a check that never arrives. Renames need the ruleset updated
   in the same change.
 - The same day, the same ruleset was applied to `method7/house-rules`, copied
-  from Roofus. It required Roofus's check names, which differ in one capital
-  letter and include a journal check house-rules does not have, so no pull
-  request there could ever have merged. Caught by comparing the ruleset with
+  from mine. It required my check names, which differ in one capital letter
+  and include a journal check house-rules does not have, so no pull request
+  there could ever have merged. It was caught by comparing the ruleset with
   the check names CI actually reports, before anything got stuck. A ruleset
   has to be written for each repo's own checks.

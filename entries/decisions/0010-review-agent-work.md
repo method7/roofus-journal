@@ -13,12 +13,12 @@ When an AI agent finishes a job, it writes a report saying what it did.
 Those reports sound equally sure of themselves whether or not the agent got
 everything right. So before any agent's work reaches Simon, someone else
 checks it against the real thing: the actual change, the actual web page,
-the actual source. We have written down how to do that check, so it no
+the actual source. I have written down how to do that check, so it no
 longer depends on one Claude session remembering.
 
 ## Context
 
-On 12 November, agents built about fifteen pieces of work. Claude checked
+On 12 November, my agents built about fifteen pieces of work. I checked
 each one before passing it to Simon, and the checks found something most
 times:
 
@@ -27,15 +27,15 @@ times:
 - credits to other people's work that the agent had not checked
 - a test that proved nothing
 
-None of those checks was written down anywhere. They lived in Claude's
-habits during one session. A new session, a different AI model, or an agent
+None of those checks was written down anywhere. They lived in the habits
+of one Claude session. A new session, a different AI model, or an agent
 that Simon ran directly would have skipped them. It is the same problem as
 a small business whose process lives in one employee's head.
 
 ## Options
 
 1. **Trust the reports.** Fast, and wrong often enough to matter.
-2. **Automated checks only.** Our automated checks (CI) already catch
+2. **Automated checks only.** The automated checks (CI) already catch
    mechanical problems, such as em-dashes, badly formed journal entries and
    broken links. They cannot tell whether a change did what was asked, looks
    right on a phone, or credits the right author.
@@ -68,6 +68,6 @@ never the only one who checks it.
 - It is different from the agent safety rules (issue #13). Those decide
   what agents are allowed to do, and stop harm before it happens. Review
   catches what got through.
-- The skill lives in Roofus while we refine it. Once it has settled, it
+- The skill lives in the Roofus repository while I refine it. Once it has settled, it
   moves to `method7/house-rules`, so every Method7 project uses it.
 - Simon agreed the approach on 12 November 2026.
