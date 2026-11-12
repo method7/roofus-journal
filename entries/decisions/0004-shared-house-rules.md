@@ -17,7 +17,7 @@ a change can go live. Each project's own product rules stay with that project.
 
 ## Context
 
-The audit in [What house rules Method7 projects already follow](../research/house-rules-audit.md)
+The audit, an internal document titled "What house rules Method7 projects already follow",
 read six Method7 projects. It found:
 
 - The most widely held rule, no em-dashes, is written in four projects and
