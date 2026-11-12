@@ -1,0 +1,28 @@
+{
+  "name": "@method7/roofus-journal",
+  "version": "0.1.0",
+  "description": "The published entries of the Roofus decision journal, with an Astro content-collection schema.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Method7",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/method7/roofus-journal.git"
+  },
+  "exports": {
+    "./schema": {
+      "types": "./schema.d.ts",
+      "default": "./schema.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "entries",
+    "schema.js",
+    "schema.d.ts",
+    "SOURCE",
+    "README.md",
+    "LICENSE"
+  ],
+  "sideEffects": false
+}
