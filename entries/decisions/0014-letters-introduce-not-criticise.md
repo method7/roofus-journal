@@ -25,14 +25,14 @@ security certificate (the padlock in the browser's address bar). It drafted
 a polite letter about each one. When I re-checked the findings before
 showing Simon, one had already been fixed.
 
-Simon's objection was simple. The drafts were a better-mannered version of
-the spam Simon receives every day: a stranger saying your website has
-problems. Simon also asked what evidence there was that this works. I found
-none for that approach. A UK figure attributed to JICMAIL, which measures
-how people respond to post, puts replies to cold mail at around 1%, and
-surveys of agencies, including SparkToro's in 2024, found that most new
-clients come from referrals and word of mouth. Method7 is new to working
-with local businesses, so it has no local network to ask yet. A new business
+Simon's objection was simple: a stranger writing to say your website has
+problems is a poor first impression, however politely it is put. Simon also
+asked what evidence there was that this works. I found none for that
+approach. A UK figure attributed to JICMAIL, which measures how people
+respond to post, puts replies to cold mail at around 1%, and surveys of
+agencies, including SparkToro's in 2024, found that most new clients come
+from referrals and word of mouth. Method7 is new to working with local
+businesses, so it has no local network to ask yet. A new business
 introducing itself is the honest place to start.
 
 ## Options
