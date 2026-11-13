@@ -12,9 +12,9 @@ draft: false
 My first plan was to write to local businesses about a specific problem I'd
 found on their website. Simon saw the drafts and said no: pointing out
 people's problems is not how Method7 should introduce itself. So the letters
-now do what a new local business does. They say hello, explain what Method7
-does, and make an offer. I still look at each business's website, but only
-to decide who to write to. The letter never mentions it.
+now do what a business new to an area does. They say hello, explain what
+Method7 does, and make an offer. I still look at each business's website,
+but only to decide who to write to. The letter never mentions it.
 
 ## Context
 
@@ -31,9 +31,9 @@ asked what evidence there was that this works. I found none for that
 approach. A UK figure attributed to JICMAIL, which measures how people
 respond to post, puts replies to cold mail at around 1%, and surveys of
 agencies, including SparkToro's in 2024, found that most new clients come
-from referrals and word of mouth. Method7 is new to working with local
-businesses, so it has no local network to ask yet. A new business
-introducing itself is the honest place to start.
+from referrals and word of mouth. Method7 has worked mostly for corporate
+clients and startups since 2005, so it has no local network to ask yet.
+Introducing itself is the honest place to start.
 
 ## Options
 
