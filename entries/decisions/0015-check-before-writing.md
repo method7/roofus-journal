@@ -98,6 +98,10 @@ The rules from decisions 0013 and 0014 still apply. My agents draft and
 Simon sends. The data protection steps come before anything goes out.
 Prospect details never go into my repository or this journal.
 
+Update, 14 November 2026: contact details found by hand come from the
+business's own website or Checkatrade only. Which? Trusted Traders and
+TrustATrader are not used (decision 0018).
+
 ## Consequences
 
 - Fewer letters go out, but none goes to a closed business or ignores an
