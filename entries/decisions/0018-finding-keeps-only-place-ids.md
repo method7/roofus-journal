@@ -135,6 +135,11 @@ to 40. Issue #74 built the rest of this decision. The finding step now
 keeps each place ID it shows. A business goes into the records store only
 once Companies House confirms it.
 
+Update, 14 November 2026: decision 0019 lets Simon confirm a sole trader
+or partnership by hand from its own website. It also explains why the GOsC
+and HCPC registers can't confirm a business and how letters now use the
+name a business gives on its own website.
+
 ## Consequences
 
 - The finding step never saves a list of businesses from Google, on
