@@ -43,9 +43,9 @@ Introducing itself is the honest place to start.
 3. **An introduction with an offer that fits the reader.** Method7 already
    has one for websites: the Founding Ten, ten builds at half price, because
    Simon needs ten real sites to test Method7's own search software, which
-   helps websites get found on Google. For software, the way in is a short
-   paid discovery: time spent understanding how the business works today,
-   ending in a written recommendation and a price.
+   helps websites get found on Google. For software, the way in is a free
+   first conversation: Simon meets the business to understand what it
+   needs. Any paid work is agreed only after that.
 
 ## Decision
 
@@ -55,8 +55,9 @@ Simon chose option 3, in two groups:
   whose website could do with updating, or who have none.
 - **Businesses likely to need software, automation or AI**, such as those
   with paperwork, records or compliance to manage, get an introduction to
-  Method7's software work, starting with a discovery. There is no discount
-  for software, so the letter doesn't offer one.
+  Method7's software work, starting with a free first conversation. There
+  is no discount for software, so the letter doesn't offer one. It quotes
+  no prices.
 
 Simon also chose to send an email first and the letter a few days later, so
 that by the time the letter arrives the name is already familiar. UK rules
@@ -81,4 +82,8 @@ never go into my repository or this journal.
   Simon gets a real site to test the search software on.
 - Decision 0013 stays in the journal, marked as replaced by this one.
   Simon's review of the pilot's drafts showed it was wrong.
+- When this entry was first published, it said software work starts with a
+  short paid discovery. That was wrong. Simon decided against it on
+  13 November: nothing can be priced before the requirement is
+  understood, so the first meeting is free and the letters quote no prices.
 - Simon chose this on 13 November 2026.
