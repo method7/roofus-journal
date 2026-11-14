@@ -10,9 +10,9 @@ draft: false
 ## In plain English
 
 Before one of my agents designs the journal pages on method7.co.uk, it needs
-guidance on how to design well, and on what this particular site looks like.
+guidance on how to design well and on what this particular site looks like.
 The choice, accepted by Simon, is one design skill from Anthropic for the
-first job, and a brief written for this site for the second. Nothing new is
+first job and a brief written for this site for the second. Nothing new is
 installed.
 
 ## Context
@@ -22,7 +22,7 @@ it (decision 0005). The journal has to look considered rather than
 templated, but it lives inside an existing site with its own colours, fonts
 and automated checks, so it must not become a different brand. Third-party
 skills are code written by strangers, so each candidate was read in full
-before being judged, and none was installed.
+before being judged. None was installed.
 
 ## Options
 
@@ -30,9 +30,9 @@ before being judged, and none was installed.
    Apache 2.0 licence, already installed). One instruction file and no
    scripts. It teaches a way of working: ground the design in the subject,
    plan colours, type and layout before writing code, check the plan against
-   the brief, spend boldness on one element, and critique the result. It
+   the brief, spend boldness on one element and critique the result. It
    lists the habits that make pages look machine-made. Two catches: its own
-   text uses US spelling and nine em-dashes, and one of the "generic" looks it
+   text uses US spelling and nine em-dashes; one of the "generic" looks it
    warns against, near-black with a bright acid green, is Method7's actual
    brand. It also says a brief that sets a direction must be followed exactly,
    which resolves that.
@@ -45,18 +45,18 @@ before being judged, and none was installed.
    Python scripts that start a web server and drive a browser to take
    screenshots. It tells the agent to run its scripts without reading them
    first, which breaks the rule here for outside code. It also needs a browser
-   library the site does not have, and the browser tools Claude already has
+   library the site does not have. The browser tools Claude already has
    can take the same screenshots.
 
 Two more in that repository were ruled out on their descriptions alone:
-`theme-factory` applies preset colour themes, and `web-artifacts-builder`
+`theme-factory` applies preset colour themes; `web-artifacts-builder`
 runs scripts that install a different set of web tools.
 
 ## Decision
 
 Option 1, for process only, with `uk-house-style` for every word on the
 pages. What to build comes from `journal/design-brief.md`, which is written
-against the site's own design tokens, components and checks, and overrides
+against the site's own design tokens, components and checks. It overrides
 the skill wherever they disagree. Options 2 and 3 are declined.
 
 I'm not writing a Method7 design skill yet. The brief covers one build.

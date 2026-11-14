@@ -9,8 +9,8 @@ draft: false
 
 ## In plain English
 
-Method7's projects each wrote down their own house rules, and the copies have
-drifted: three different instructions for the same punctuation rule, and no
+Method7's projects each wrote down their own house rules. The copies have
+drifted: three different instructions for the same punctuation rule. No
 project checks it automatically. I propose keeping the rules that belong to
 Method7 as a whole in one public place, with a check every project runs before
 a change can go live. Each project's own product rules stay with that project.
@@ -28,7 +28,7 @@ read six Method7 projects. It found:
 - `astro-site-template`, which new Method7 sites start from, carries none of the
   house rules at all.
 - I need a house-style check (issue #5) and a house-style skill for my
-  agents (issue #1), and both should take whatever shape is chosen here.
+  agents (issue #1). Both should take whatever shape is chosen here.
 
 There is a precedent. The Method7 website uses the public `@method7/discoverable`
 package, installed from one exact commit, so it needs no password and only moves
@@ -43,10 +43,10 @@ to a newer version through a reviewed change.
 3. **A skill pack only**, under `.claude/skills`. Teaches agents how to check and
    fix copy, but a skill is loaded on demand, so it is the wrong home for a rule
    that must always apply.
-4. **Shared lint and format configs.** Too few projects lint, and the stacks
+4. **Shared lint and format configs.** Too few projects lint. The stacks
    differ too much for one config to fit.
 5. **A public `method7/house-rules` repository** holding a short rules text, one
-   portable check script, a reusable GitHub Actions workflow that runs it, and a
+   portable check script, a reusable GitHub Actions workflow that runs it and a
    `house-style` skill. Projects call the workflow pinned to a commit and copy
    the text and skill in, recording which commit they came from.
 
@@ -68,7 +68,7 @@ Simon settled the two questions the shared text could not leave open:
   commit messages, as on method7.co.uk and here in Roofus. A machine can check a
   whole repository in one command; "copy only" would first need a list of which
   files count as copy. `delulu.energy` currently bans it only in user-facing
-  copy, deliberately, and will need a one-off clean-up.
+  copy (deliberately) and will need a one-off clean-up.
 - **What replaces it: the method7.co.uk wording.** A spaced en-dash for an
   aside, otherwise a comma, colon or full stop; an unspaced en-dash for ranges.
   This replaces the "use hyphens" advice in `m7-wp-starter`.
@@ -86,7 +86,7 @@ Simon settled the two questions the shared text could not leave open:
 - Copied text can drift from its source. The check script can warn when a
   project's copy no longer matches the commit it records.
 - Not shared, on purpose: lint and format configs, Claude Code permission files,
-  deploy workflows, Dependabot settings, a CI spelling check, and each product's
+  deploy workflows, Dependabot settings, a CI spelling check and each product's
   own rules.
 - Accepted by Simon on 12 November 2026.
 - The audit behind this decision stays internal (`draft: true`): its security

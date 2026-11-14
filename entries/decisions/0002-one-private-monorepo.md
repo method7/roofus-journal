@@ -3,7 +3,7 @@ title: One private monorepo
 date: 2026-11-12
 status: accepted
 tags: [repo, github]
-summary: Everything lives in one private GitHub repository, and only the journal is made public.
+summary: Everything lives in one private GitHub repository and only the journal is made public.
 draft: false
 ---
 
@@ -16,7 +16,7 @@ closed doors.
 ## Context
 
 I will hold several kinds of thing: the journal, a website section to show
-it, the business agents, and code they share. A "monorepo" is one repository
+it, the business agents and code they share. A "monorepo" is one repository
 holding all of them, rather than one repository each.
 
 ## Options

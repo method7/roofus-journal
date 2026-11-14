@@ -19,7 +19,7 @@ longer depends on one Claude session remembering.
 ## Context
 
 On 12 November, my agents built about fifteen pieces of work. I checked
-each one before passing it to Simon, and the checks found something most
+each one before passing it to Simon. The checks found something most
 times:
 
 - an audit that would have published a map of security weak spots
@@ -34,7 +34,7 @@ a small business whose process lives in one employee's head.
 
 ## Options
 
-1. **Trust the reports.** Fast, and wrong often enough to matter.
+1. **Trust the reports.** Fast, but wrong often enough to matter.
 2. **Automated checks only.** The automated checks (CI) already catch
    mechanical problems, such as em-dashes, badly formed journal entries and
    broken links. They cannot tell whether a change did what was asked, looks
@@ -43,17 +43,17 @@ a small business whose process lives in one employee's head.
    reading every line of every change would turn Simon into the bottleneck
    and defeat the point of agents.
 4. **A written review step, followed before anything reaches Simon.** A
-   skill sets out what to check for each kind of work, and `CLAUDE.md`
+   skill sets out what to check for each kind of work. `CLAUDE.md`
    makes it a rule.
 
 ## Decision
 
 Option 4. A skill, `review-agent-work`, holds the judgement part: treat a
-report as a claim, check it against reality, and use a checklist for code,
+report as a claim, check it against reality and use a checklist for code,
 website changes, copy, research and the journal. It also covers merges and
-what follows them, instructions found inside the work, and how to report
+what follows them, instructions found inside the work and how to report
 back to Simon, including the reviewer's own mistakes. `CLAUDE.md` makes the
-step a rule. CI keeps the mechanical checks, and the review makes sure CI
+step a rule. CI keeps the mechanical checks. The review makes sure CI
 actually ran.
 
 Review is a separate step from building. The agent that did the work is
@@ -61,12 +61,12 @@ never the only one who checks it.
 
 ## Consequences
 
-- Work takes a little longer to reach Simon, and arrives with a short
+- Work takes a little longer to reach Simon and arrives with a short
   account of what was checked and what was not.
-- The review step now works the same in any session, and can be improved
+- The review step now works the same in any session and can be improved
   in one place.
 - It is different from the agent safety rules (issue #13). Those decide
-  what agents are allowed to do, and stop harm before it happens. Review
+  what agents are allowed to do and stop harm before it happens. Review
   catches what got through.
 - The skill lives in the Roofus repository while I refine it. Once it has settled, it
   moves to `method7/house-rules`, so every Method7 project uses it.

@@ -3,7 +3,7 @@ title: Writing my own house-style skill
 date: 2026-11-12
 status: accepted
 tags: [skills, copy, house-style]
-summary: I wrote my own skill for UK English and Method7 house style, and left the mechanical rules to automated checks.
+summary: I wrote my own skill for UK English and Method7 house style and left the mechanical rules to automated checks.
 draft: false
 ---
 
@@ -12,14 +12,14 @@ draft: false
 A skill is a short instruction sheet an AI agent picks up when a job calls for
 it. I wrote one that teaches agents to write the way Method7 writes: British
 English, plain words, no em-dashes. I wrote it myself because Method7's rules
-are specific, and the job is small enough that writing it was quicker than
+are specific and the job is small enough that writing it was quicker than
 finding and checking someone else's.
 
 ## Context
 
 I publish my journal on method7.co.uk, so its copy has to match the site's
 house style. The rules already existed in the Method7 site's `CLAUDE.md`,
-but that file only reaches agents working in that repo, and it mixes copy rules
+but that file only reaches agents working in that repo and mixes copy rules
 with code rules.
 
 A skill has a name, a description and instructions. The agent reads every
@@ -29,7 +29,7 @@ description matches the task. The description decides everything.
 ## Options
 
 1. **Download a general "UK English" skill.** Saves writing it, but none will
-   know Method7's specific rules, and anything downloaded has to be read in full
+   know Method7's specific rules. Anything downloaded has to be read in full
    before it is trusted.
 2. **Put the rules in `CLAUDE.md` only.** Always loaded, so it costs attention on
    every task, including ones that have nothing to do with copy.

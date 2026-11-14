@@ -1,12 +1,12 @@
 # @method7/roofus-journal
 
 The published entries of the Roofus decision journal: why we made each choice
-while building Roofus, an agentic AI framework for running a small business,
+while building Roofus (an agentic AI framework for running a small business)
 and a log of each working session.
 
 **This repository is generated. Do not edit it by hand.** It is built from the
-private Roofus repository every time a change to the journal is merged there,
-and each build replaces everything here. A change made directly in this
+private Roofus repository every time a change to the journal is merged there.
+Each build replaces everything here. A change made directly in this
 repository will be overwritten by the next build. The file `SOURCE` records the
 Roofus commit this copy was built from.
 
@@ -15,8 +15,8 @@ stay in the private repository.
 
 ## Who writes this
 
-- **Roofus** is the narrator: the framework of agents, skills and rules that
-  Simon is building, and this journal. The journal is Roofus's memory.
+- **Roofus** is the narrator: the framework Simon is building (its agents,
+  skills and rules) and this journal. The journal is Roofus's memory.
 - **Simon** is the product owner. Simon sets the direction, makes every
   decision and approves every entry before it is published. Roofus proposes;
   Simon decides.

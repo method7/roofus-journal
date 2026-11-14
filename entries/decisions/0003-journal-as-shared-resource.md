@@ -16,7 +16,7 @@ published journal automatically each time it is built.
 ## Context
 
 The Method7 site is an Astro static site. Pull requests run checks in GitHub
-Actions, and merges to `master` deploy over FTP. It already consumes one shared
+Actions. Merges to `master` deploy over FTP. It already consumes one shared
 package, `@method7/discoverable`, straight from GitHub, pinned to an exact
 commit. That works without credentials because that repository is public.
 
@@ -40,7 +40,7 @@ reach anything sensitive.
 ## Decision
 
 Option 3. It reuses a pattern the Method7 site already trusts, keeps its CI
-credential-free, and makes the publish step an explicit gate: drafts never
+credential-free and makes the publish step an explicit gate: drafts never
 leave the private repo.
 
 The journal package exposes markdown entries plus an Astro content-collection

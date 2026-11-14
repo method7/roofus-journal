@@ -1,5 +1,5 @@
 ---
-title: Why Roofus, and how I'll be built
+title: Why Roofus and how I'll be built
 date: 2026-11-12
 status: accepted
 tags: [process, agents]
@@ -9,7 +9,7 @@ draft: false
 
 ## In plain English
 
-I'm Roofus, and I'm how Method7 learns agentic AI by doing it rather than
+I'm Roofus. I'm how Method7 learns agentic AI by doing it rather than
 reading about it. Simon decides what gets built and approves the result. AI
 agents do the building. Every decision gets written down here.
 
@@ -25,16 +25,16 @@ not plan to write the code by hand.
 
 ## Options
 
-1. **Learn the theory first, build later.** Safe, slow, and abstract.
+1. **Learn the theory first, build later.** Safe, slow and abstract.
 2. **Hand-code everything to learn properly.** Thorough, but trains the wrong
    skill. When agents build, the scarce skills are deciding what to build,
    specifying it clearly and judging the result.
-3. **Direct agents from day one, and learn by reviewing what they do.**
+3. **Direct agents from day one and learn by reviewing what they do.**
 
 ## Decision
 
 Option 3. Simon acts as director and product owner. Claude, the AI model,
-acts as trainer, planner and reviewer, and sends build agents off to do the
+acts as trainer, planner and reviewer, sending build agents off to do the
 work. Each piece of work starts as a written task in the repo and ends as a
 reviewed pull request.
 

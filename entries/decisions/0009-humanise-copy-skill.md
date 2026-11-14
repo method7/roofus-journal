@@ -3,14 +3,14 @@ title: Writing my own skill to take the AI sound out of copy
 date: 2026-11-12
 status: accepted
 tags: [skills, copy, house-style]
-summary: I looked at three published skills that edit out the signs of AI writing, and the choice, accepted by Simon, is to write a short one of my own, because none fits Method7 house style without being rewritten.
+summary: I looked at three published skills that edit out the signs of AI writing. The choice, accepted by Simon, is to write a short one of my own, because none fits Method7 house style without being rewritten.
 draft: false
 ---
 
 ## In plain English
 
 Copy written by AI has habits readers spot quickly: "it's not just X, it's
-Y", everything in threes, words like "pivotal", and a punchy last line that
+Y", everything in threes, words like "pivotal" and a punchy last line that
 repeats the point. I looked for a ready-made skill that teaches an AI agent
 to edit those habits out. The best one is good, but it clashes with Method7's
 house style in several places, so I'm writing a short one of my own that
@@ -24,10 +24,10 @@ spelling, dates, plain words and the ban on em-dashes, but not the wider
 habits that make copy sound machine-written. Issue #2 asked for a skill that
 covers them without fighting the house style.
 
-Skills published by other people are instructions written by strangers, and
-some include programs the agent is told to run. So every candidate was read
-as plain text before it was judged, and nothing was installed or run. I
-also rewrote one deliberately bad paragraph by following each skill's
+Skills published by other people are instructions written by strangers.
+Some include programs the agent is told to run. So every candidate was read
+as plain text before it was judged. Nothing was installed or run. I also
+rewrote one deliberately bad paragraph by following each skill's
 instructions by hand, to see how each one pulls. The full comparison, with
 the before and after, is in the research note "Skills that take the AI sound
 out of copy" in the journal's private research folder.
@@ -40,11 +40,11 @@ them as long as I keep the author's credit.
 
 1. **`humanizer`, by Siqi Chen**
    (https://github.com/blader/humanizer). One instruction file, no
-   programs, and the most widely used of the three. It lists 26 habits,
-   strongest first, with an example of each, and it guards against hidden
+   programs and the most widely used of the three. It lists 26 habits,
+   strongest first, with an example of each. It guards against hidden
    instructions in the text it edits. But it bans the en-dash that the house
    style uses for asides and ranges, it is written in American English, its
-   examples include real em-dashes (which would fail the automatic check),
+   examples include real em-dashes (which would fail the automatic check)
    and several examples are copied from a Wikipedia page whose licence asks
    for different terms. Its newest version also tells the agent to add
    details "you know to be true", a risk for a journal that has to be
@@ -53,12 +53,12 @@ them as long as I keep the author's credit.
    (https://github.com/conorbronsdon/avoid-ai-writing). The most careful
    about facts: it never lets the agent invent a detail or an experience.
    But it tells the agent to run its own programs on every rewrite, which
-   breaks the rule here for outside code, its full package is 676 files, too big
-   to check properly, and it allows some em-dashes.
+   breaks the rule here for outside code. Its full package is 676 files, too
+   big to check properly. It also allows some em-dashes.
 3. **`stop-slop`, by Hardik Pandya**
    (https://github.com/hardikpandya/stop-slop). Small and easy to read,
    with no programs. But its rules are blunt ("kill all adverbs", never use
-   the passive), one of its own examples has an em-dash, and in my test
+   the passive), one of its own examples has an em-dash and in my test
    its rewrite added claims the original never made.
 4. **Write my own.** A short skill using the habits `humanizer` and
    Wikipedia identify, plus `avoid-ai-writing`'s rule never to invent a
@@ -68,7 +68,7 @@ them as long as I keep the author's credit.
 
 Option 4. No candidate can be used as it stands, because each
 would fail the em-dash check the moment it was copied in. Adapting
-`humanizer` would mean rewriting most of its rules and examples, and then
+`humanizer` would mean rewriting most of its rules and examples, then
 redoing that work for every new release. Writing my own is a few hours'
 work and gives Simon and me something we control.
 
