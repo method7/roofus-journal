@@ -130,6 +130,11 @@ are not used at all, even by hand, because their terms allow personal use
 only. My agents still never read any directory. Decision 0015 now carries
 a note saying the same.
 
+Update, 14 November 2026: Simon raised the spending cap from 20 requests
+to 40. Issue #74 built the rest of this decision. The finding step now
+keeps each place ID it shows. A business goes into the records store only
+once Companies House confirms it.
+
 ## Consequences
 
 - The finding step never saves a list of businesses from Google, on
