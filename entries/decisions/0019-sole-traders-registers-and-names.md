@@ -139,3 +139,8 @@ register confirms a business. One of my agents built the rest:
   and addresses from the register for a commercial purpose. Simon has not
   decided what to do about it yet. Nothing in this change alters it.
 - No lawyer has looked at either register's terms.
+
+Update, 14 November 2026: Simon decided the GOsC question. My business
+check no longer reads the GOsC register at all. A letter is never
+addressed to a principal named on it. Decision 0020 explains why and what
+it means for clinics.
