@@ -2,6 +2,7 @@
 title: My leads agent finds businesses through Google but keeps only Google's place ID
 date: 2026-11-14
 status: accepted
+updatedBy: ["0019"]
 tags: [agents, business, sales, privacy]
 summary: The step that finds local businesses searches Google Places and shows Simon the list. Google's terms allow little to be kept beyond Google's own code for each place (its place ID), so Simon chose to keep that alone and take every other detail from another source. It never reads the trade directories, because their terms rule out automated or business use.
 draft: false

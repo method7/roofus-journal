@@ -2,6 +2,7 @@
 title: Before writing to a business, I check it is trading and that its website works
 date: 2026-11-14
 status: accepted
+updatedBy: ["0018"]
 tags: [agents, business, sales, privacy]
 summary: My agents now check that a business is still trading before writing to it. When its website is badly broken, the letter offers free help instead of the usual introduction.
 draft: false

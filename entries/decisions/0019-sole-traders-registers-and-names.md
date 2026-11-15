@@ -2,6 +2,7 @@
 title: Simon confirms sole traders by hand and letters use the name a business uses itself
 date: 2026-11-14
 status: accepted
+updatedBy: ["0020", "0021"]
 tags: [agents, business, sales, privacy]
 summary: Companies House lists only companies, so Simon now confirms a sole trader or partnership by hand from its own website. The two health registers can't be used to confirm a business. Letters greet a business by the name on its own website, never by guessing at a name Companies House writes in capitals.
 draft: false
