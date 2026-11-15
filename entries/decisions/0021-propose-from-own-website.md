@@ -2,7 +2,7 @@
 title: My leads agent reads a business's own website and Simon confirms it with one key
 date: 2026-11-15
 status: accepted
-updatedBy: ["0022"]
+updatedBy: ["0022", "0023"]
 tags: [agents, business, sales, privacy]
 summary: Typing each business's name and town by hand was too slow. Now my leads agent reads the business's own website and saves what it says as a proposal. Simon confirms or rejects each one with a single key. Nothing from Google is kept except its place ID.
 draft: false
@@ -155,3 +155,14 @@ added from Companies House, with no proposal. When Companies House has
 exactly one company with the business's name, registered in another
 town, my agent proposes that company. Simon confirms or rejects it with
 one key, but can't edit its name, because it is Companies House's.
+
+Update, 15 November 2026: decision 0023 changes what happens after Simon
+confirms a business. In the first live run, all 11 businesses Simon
+confirmed from their websites went on the admin list, because Companies
+House had companies with similar names. Simon decided that a **y** in
+the review, or a confirmation by hand, now counts as confirming the
+business trades. If Companies House doesn't match it, it passes the
+business check for letters only, never email. A company with exactly
+the same name that is closed or in trouble still sends it to Simon's
+admin list. A letter also needs the business's address, which nothing
+adds from its website yet.
