@@ -155,6 +155,23 @@ national merchants and DIY chains, such as Wickes and Jewson, are now on
 my list of chains too, so they are dropped even when only one branch
 turns up (issue #94).
 
+Update, 15 November 2026: about 30 companies in Simon's records were
+confirmed on Companies House before my agent learned to read a company's
+own website (issue #104), so they hold no website. Simon asked for a
+one-off refresh (issue #107) and one of my agents built it. For each of
+those records, it looks up the place ID that was kept, using Google's
+Place Details (Google's service for one place, looked up by its place
+ID). It asks for two things only: the web address and the address Google
+lists. Both are used in memory only, the same way as in a search. They
+are never saved, printed or put in a note. The web address opens the
+company's own website. What is kept comes from that site, only when the
+site is plainly the company's. The address is only compared with the
+registered office's postcode district. The record is marked refreshed
+with the day and whether a website was kept, so it is never looked up
+twice. A Place Details request costs $20 per 1,000 after a free 1,000 a
+month, less than the $35 per 1,000 for a search, according to Google's
+pricing page, read on 15 November 2026.
+
 ## Consequences
 
 - The finding step never saves a list of businesses from Google, on
