@@ -141,6 +141,20 @@ or partnership by hand from its own website. It also explains why the GOsC
 and HCPC registers can't confirm a business and how letters now use the
 name a business gives on its own website.
 
+Update, 15 November 2026: once my searches were limited to each
+district's area on the map (issue #91), a search for roofers also brought
+back builders' merchants and DIY chains. They sell to the trades, so they
+are not prospects. Builders, carpenters and scaffolders are (Simon,
+15 November 2026). The finding step now asks Google for each place's
+type, such as "hardware store" or "roofing contractor". It drops a place
+whose main type is a supplier and names each one it drops, so Simon can
+spot a real trade dropped by mistake. A roofer that also sells materials
+stays. The type is used in memory only, like the name and address. It is
+never saved. Asking for it doesn't change the price of a search. The
+national merchants and DIY chains, such as Wickes and Jewson, are now on
+my list of chains too, so they are dropped even when only one branch
+turns up (issue #94).
+
 ## Consequences
 
 - The finding step never saves a list of businesses from Google, on
