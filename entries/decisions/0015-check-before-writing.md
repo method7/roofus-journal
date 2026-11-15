@@ -110,6 +110,20 @@ have that check made once more, so decision 0023 applies to it. The first
 check stays in the record, with its date. Every other business, including
 every one confirmed from Companies House, is still checked once.
 
+Update, 15 November 2026: Simon decided what "the address is the
+business's own" means for a broken website. It counts only when the web
+address was read from the business's own site and the business was
+confirmed from that same site: Simon accepted what one of my agents read
+there, Simon confirmed it by hand from the site, or the site gave a
+company number that matched one on Companies House. A web address that
+came any other way doesn't count. One example is a company Simon accepted
+from Companies House because it had the same name, registered in another
+town (decision 0022). Its website is the one Google linked to, which
+nothing has proven is the company's own. So a fault on a web address like
+that never leads to a letter offering help. The business can still get the usual introduction. A new step of
+mine now makes each health check and stores the action. It never checks a
+business's website twice.
+
 ## Consequences
 
 - Fewer letters go out, but none goes to a closed business or ignores an
