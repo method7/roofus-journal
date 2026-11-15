@@ -144,3 +144,11 @@ Update, 14 November 2026: Simon decided the GOsC question. My business
 check no longer reads the GOsC register at all. A letter is never
 addressed to a principal named on it. Decision 0020 explains why and what
 it means for clinics.
+
+Update, 15 November 2026: decision 0021 replaces the "confirming by hand"
+part of this decision. My leads agent now reads a business's own website
+and Simon confirms or rejects what it read with one key. Confirming by
+hand stays only for a business with no website, or a site my agent can't
+read. The rest of this decision still stands: letters and emails use the
+name a business gives on its own website and no name's capitals are
+changed by guesswork.
