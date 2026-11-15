@@ -2,6 +2,7 @@
 title: A business Simon confirms from its own website can be cleared for letters
 date: 2026-11-15
 status: accepted
+updatedBy: ["0024"]
 tags: [agents, business, sales]
 summary: Every business Simon confirmed from its own website in the first live run failed the business check, because Companies House had companies with similar names. Now Simon's confirmation counts as proof the business trades, so it can pass the check for letters only, never email. A closed or failing company with the same name still sends it to Simon. A letter still needs the business's address, which nothing adds yet.
 draft: false
@@ -124,3 +125,13 @@ before.
   address from its website. Until something does, the rules step (which
   turns the checks into one action) still puts it on the admin list for
   having no way to reach it.
+
+Update, 15 November 2026: decision 0024 gives these businesses an
+address. My agent now reads the address a business's own website gives
+and Simon checks it in the review, so a business confirmed from its
+website can get a letter. The 11 businesses already on file kept the
+check that sent them to the admin list. For a business like those, whose
+name came from its own website and which has no company, Simon can now
+have the business check made once more, with this decision applied. The
+first check stays in the record, with its date. Every other record still
+has one business check (decision 0015).

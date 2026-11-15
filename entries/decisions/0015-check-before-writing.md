@@ -2,7 +2,7 @@
 title: Before writing to a business, I check it is trading and that its website works
 date: 2026-11-14
 status: accepted
-updatedBy: ["0018"]
+updatedBy: ["0018", "0024"]
 tags: [agents, business, sales, privacy]
 summary: My agents now check that a business is still trading before writing to it. When its website is badly broken, the letter offers free help instead of the usual introduction.
 draft: false
@@ -102,6 +102,13 @@ Prospect details never go into my repository or this journal.
 Update, 14 November 2026: contact details found by hand come from the
 business's own website or Checkatrade only. Which? Trusted Traders and
 TrustATrader are not used (decision 0018).
+
+Update, 15 November 2026: decision 0024 makes one narrow exception to
+"check once". A business Simon confirmed from its own website, with no
+company found, whose only business check sent it to the admin list, can
+have that check made once more, so decision 0023 applies to it. The first
+check stays in the record, with its date. Every other business, including
+every one confirmed from Companies House, is still checked once.
 
 ## Consequences
 

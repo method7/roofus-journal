@@ -2,7 +2,7 @@
 title: My leads agent reads a business's own website and Simon confirms it with one key
 date: 2026-11-15
 status: accepted
-updatedBy: ["0022", "0023"]
+updatedBy: ["0022", "0023", "0024"]
 tags: [agents, business, sales, privacy]
 summary: Typing each business's name and town by hand was too slow. Now my leads agent reads the business's own website and saves what it says as a proposal. Simon confirms or rejects each one with a single key. Nothing from Google is kept except its place ID.
 draft: false
@@ -166,3 +166,12 @@ business check for letters only, never email. A company with exactly
 the same name that is closed or in trouble still sends it to Simon's
 admin list. A letter also needs the business's address, which nothing
 adds from its website yet.
+
+Update, 15 November 2026: decision 0024 adds the business's address to
+what my agent reads from its own website. It reads the address from the
+site's structured data, or from the lines just before a postcode when they
+plainly form an address. It keeps it exactly as written, with its page.
+The review shows it. Simon keeps it with **y**, or types or removes it
+with **e**. It is used only to post a letter. A sole trader's address can
+be their home, so decision 0024 says what is kept and how Simon removes
+it. No lawyer has looked at this either.
