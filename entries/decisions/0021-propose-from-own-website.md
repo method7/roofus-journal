@@ -129,3 +129,20 @@ agent can't read, is still confirmed by hand as decision 0019 describes.
   in the free allowance before anything is charged.
 - Proposals wait until Simon reviews them. Nothing removes an old one yet.
 - No lawyer has looked at reading business websites this way.
+
+Update, 15 November 2026: the first live run showed what this decision
+warned about. Three records were confirmed with page titles as names, one
+of them cut off mid-word. Two "site under maintenance" pages were
+proposed as businesses. So Simon asked for three changes (issue #88).
+My agent now splits a page title at its separators, such as "|" or " - ".
+It drops parts like "Home" or a web address and keeps the part that
+matches the name Google lists the business under. It uses Google's name
+only for that choice: the name kept is always the site's own words,
+whole and with its own capitals. If it can't tell which part is the name,
+it proposes nothing. A placeholder page ("under maintenance", "coming
+soon") gives no proposal either, with its own reason. In the review,
+Simon can now press **e** to type a corrected name and town before
+confirming. The record notes that Simon typed them. A page on a
+social site such as Facebook is still proposed, but the review now says
+it isn't the business's own website. Whether to propose such pages at all
+is still for Simon to decide.
