@@ -2,6 +2,7 @@
 title: My letters introduce Method7 instead of pointing out problems
 date: 2026-11-13
 status: accepted
+updatedBy: ["0025"]
 tags: [agents, business, sales, privacy]
 summary: Introduction emails and letters now lead with what Method7 offers, because telling strangers what is wrong with their website is not how Simon wants Method7 to be known.
 draft: false
@@ -87,3 +88,11 @@ never go into my repository or this journal.
   13 November: nothing can be priced before the requirement is
   understood, so the first meeting is free and the letters quote no prices.
 - Simon chose this on 13 November 2026.
+
+Update, 15 November 2026: Simon added a third way to reach a business,
+a phone call, for trades whose own website gives a phone number
+(decision 0025). The call follows this decision too. The lines for the
+chat introduce Method7 and make the same offer as the letter for the
+business's group: the Founding Ten for trades, Method7's software work
+for the rest. The only thing they say about the business's website is
+that the number came from it. The email rule here is unchanged.

@@ -2,7 +2,7 @@
 title: Before writing to a business, I check it is trading and that its website works
 date: 2026-11-14
 status: accepted
-updatedBy: ["0018", "0024"]
+updatedBy: ["0018", "0024", "0025"]
 tags: [agents, business, sales, privacy]
 summary: My agents now check that a business is still trading before writing to it. When its website is badly broken, the letter offers free help instead of the usual introduction.
 draft: false
@@ -123,6 +123,16 @@ nothing has proven is the company's own. So a fault on a web address like
 that never leads to a letter offering help. The business can still get the usual introduction. A new step of
 mine now makes each health check and stores the action. It never checks a
 business's website twice.
+
+Update, 15 November 2026: Simon decided that a phone number can now lead
+to one thing, a phone call (decision 0025). A business that is trading,
+shows no money trouble and gives a phone number on its own website gets
+a call instead of going on the admin list when there is no reliable way
+to post or email it. One that can get a letter keeps the letter and is
+marked as one Simon can call too. A phone number is still never a reason
+for a letter or an email and a number that looks wrong is still never
+treated as a fault. Each call is kept with its date and a business that
+says it isn't interested is marked do not contact.
 
 ## Consequences
 
