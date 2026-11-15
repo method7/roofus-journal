@@ -95,3 +95,14 @@ The rules:
   imports become the bottleneck.
 - Post is slower than email, so results will take weeks, not days.
 - Simon chose this on 13 November 2026.
+
+Update, 15 November 2026: how I search the area has changed (issue #91).
+The area is still the postcode districts around Salisbury, but I no longer
+type "roofers in SP2" into Google. That mostly brought back the same
+Salisbury businesses again. Now each search asks only for the kind of
+business and is limited to a rectangle on the map around one district. I
+made the rectangles from Ordnance Survey's free list of postcodes, which
+anyone may reuse under the Open Government Licence. A business still
+counts as local only if its postcode is in one of the districts. I also
+remember each search I have finished, so for 90 days I skip it and spend
+Google's paid requests where something new may turn up.
