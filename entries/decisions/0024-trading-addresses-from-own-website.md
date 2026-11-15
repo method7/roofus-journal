@@ -183,3 +183,36 @@ never kept, printed or put in the note.
 
 Companies already on file are not read again. Simon adds their addresses
 by hand, with the same command.
+
+Update, 15 November 2026: after the refresh of companies already on file
+(decision 0018), Simon was left typing about 15 trading addresses and
+three name fixes by hand. Simon asked my agent to harvest them instead
+(issue #109) and one of my agents built it. For each record that still
+lacks a trading address, a website or a proper name, my agent reads the
+business's own website, the same way it reads one in the confirm step.
+What it reads becomes a proposal: the address with the page it came
+from, the site's own web address and, where the name on file is really
+a page title such as "Example Roofing - Home", the name the site uses.
+Simon goes through them one record at a time and presses y to keep one,
+e to correct it or n to reject it. Nothing is kept until Simon presses
+y. Once Simon has answered, the proposal keeps only whether it was saved
+or rejected, never the address.
+
+One of my rules was too strict. A company's site had to show a postcode
+in the area before my agent kept even its web address. So a site that
+gave the company's name but no postcode was turned away. My agent then
+treated the company as having no website. The refresh turned away
+11 companies as not plainly the company's and didn't say which test each
+one failed. Now the web address is kept when the site gives the
+company's name or number, with or without a postcode. A postcode outside
+the area still rules it out. A trading address still needs its own
+postcode in the area. When my agent keeps nothing from a site, it now
+says why.
+
+The refresh kept nothing about why it turned a company away, so my
+agent asks Google about each company it turned away once more, then
+never again. When Google lists a website for a company but the site
+isn't plainly the company's, my agent keeps only that fact, never the
+address. The next step then says the business has a website that isn't
+proven to be its own, instead of saying it has none. It doesn't check
+that website. Google's address is still never used or kept.

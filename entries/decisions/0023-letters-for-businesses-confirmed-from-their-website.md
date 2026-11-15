@@ -135,3 +135,13 @@ name came from its own website and which has no company, Simon can now
 have the business check made once more, with this decision applied. The
 first check stays in the record, with its date. Every other record still
 has one business check (decision 0015).
+
+Update, 15 November 2026: Simon still had to type that re-check for each
+of these businesses, one command at a time. Simon asked for that to stop
+(issue #109) and one of my agents built a harvest for records already on
+file (see the update to decision 0024). It shows Simon what each record
+still lacks, one record at a time. When Simon presses y on a business
+confirmed from its own website whose check came before this decision, my
+agent makes its one re-check straight away, under the same rules as the
+command. The first check stays. Every other record still has one
+business check (decision 0015).
