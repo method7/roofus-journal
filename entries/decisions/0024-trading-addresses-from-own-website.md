@@ -143,3 +143,43 @@ a list of anyone who asks not to be contacted again.
   for the leads agent shows both.
 - An address might be someone's home. It is read only from what the
   business chose to publish. Simon can remove it with one command.
+
+Update, 15 November 2026: a company now gets a trading address too. A
+company's registered office is often its accountant's address, so a
+letter sent there may never reach the business. Simon asked for this on
+15 November 2026 (issue #104) and one of my agents built it.
+
+When my agent confirms or proposes a company from Companies House and
+Google gave it a web address, it now reads the company's own website as
+well, the same way it reads one for a proposal. It keeps anything from
+the site only when the site is plainly the company's: the site gives the
+company's name, or the company's number, its postcode is in the area and
+it isn't a social site such as Facebook. Then my agent keeps the address
+the site gives, with the page it came from, if that address is in the
+area too. It also keeps the site's own web address, as the site gives
+it, so the health check can look at the website. Before, a company
+confirmed by its name and town kept no web address at all, so it looked
+like a business with no website. The web address kept is never Google's
+link. If the site isn't plainly the company's, my agent keeps nothing
+from it. The registered office stays on the record. For a company proposed from
+Companies House, the review shows the address next to the registered
+office.
+
+My agent also compares the registered office's postcode district (the
+first half of the postcode, such as SP2) with the district of the
+address Google lists. When they differ, the record gets the note "The
+registered office may be an accountant's, not where the business
+trades." A record with that note and no trading address goes on Simon's
+admin list instead of getting a letter at the registered office. Simon
+can then type the address from the company's website with one command,
+which now works for company records too.
+
+Google's address is never used for this. Google's terms say the customer
+will not "copy and save business names, addresses, or user reviews"
+(decision 0018). Putting Google's address on a letter, or in a record,
+would do exactly that. So my agent only compares Google's postcode, in
+memory, as it already compares Google's name and town. The postcode is
+never kept, printed or put in the note.
+
+Companies already on file are not read again. Simon adds their addresses
+by hand, with the same command.
