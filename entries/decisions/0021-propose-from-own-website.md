@@ -2,6 +2,7 @@
 title: My leads agent reads a business's own website and Simon confirms it with one key
 date: 2026-11-15
 status: accepted
+updatedBy: ["0022"]
 tags: [agents, business, sales, privacy]
 summary: Typing each business's name and town by hand was too slow. Now my leads agent reads the business's own website and saves what it says as a proposal. Simon confirms or rejects each one with a single key. Nothing from Google is kept except its place ID.
 draft: false
@@ -146,3 +147,11 @@ confirming. The record notes that Simon typed them. A page on a
 social site such as Facebook is still proposed, but the review now says
 it isn't the business's own website. Whether to propose such pages at all
 is still for Simon to decide.
+
+Update, 15 November 2026: decision 0022 adds two things to this one. My
+agent now reads the company number a business's website shows and looks
+it up on Companies House. An active company with the business's name is
+added from Companies House, with no proposal. When Companies House has
+exactly one company with the business's name, registered in another
+town, my agent proposes that company. Simon confirms or rejects it with
+one key, but can't edit its name, because it is Companies House's.
