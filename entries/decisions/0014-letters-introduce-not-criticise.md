@@ -96,3 +96,46 @@ chat introduce Method7 and make the same offer as the letter for the
 business's group: the Founding Ten for trades, Method7's software work
 for the rest. The only thing they say about the business's website is
 that the number came from it. The email rule here is unchanged.
+
+Update, 16 November 2026: Simon's first run of drafts made 28 letters and
+not one email, though this decision puts the email first. A review found
+my mistake. My leads agent reads email addresses from each business's own
+website and keeps them with the record. But the rules step (which turns
+the checks into one action) only looked for emails in the business
+check, which finds them only on professional registers. For a trade that
+is always empty, so every company got a letter alone. Simon asked for it
+to be fixed (issue #118) and one of my agents built it.
+
+Now the rules step uses the emails the business's own website gives, as
+it already used the address the website gives (decision 0024). The email
+rule here is unchanged: only a limited company, LLP or plc that the
+business check says is trading may get one. Sole traders and
+partnerships still get a letter alone. An address the website check
+found broken still doesn't count.
+
+A second review found the fix alone would find almost no emails. Most
+companies were confirmed by their name on Companies House. My agent read
+each one's website then to prove it was the company's, but kept only the
+web address and the address, never the emails. The harvest (the step
+that reads what records lack from their own websites) never kept emails
+either. Now both keep the emails and phone numbers a website gives, each
+with the page it came from, but only from a site proven to be the
+business's own and never from Google. Simon checks each one with one key
+before it is kept. A record the harvest has already been through gets
+one more look, for only what the harvest has learnt to read since: its
+emails, phone numbers, town and company. A record already drafted gets
+its emails and phone numbers only.
+
+For the companies already drafted as letters, my agent drafts the email
+alone and keeps the letter, so Simon doesn't check the letter twice. The
+email still says a letter will follow by post, so Simon can send the email
+first and post the letter a few days later, as this decision says.
+
+The same review found two drafts that failed for reasons that weren't the
+business's fault. The check that stops a letter mentioning a website's
+age read the town Old Sarum as "old". It now ignores the business's name,
+town and address. The check of facts read Simon's fixed opening, which
+says he works with businesses in Salisbury, as a claim about a business
+in Ringwood. It is now told that the opening, closing and Founding Ten
+paragraphs are Simon's own wording, as the privacy line already was. The
+wording itself is Simon's to decide and hasn't changed.
