@@ -92,3 +92,14 @@ journal.
 - Moving to a CRM later is a planned job, not a rescue: the export holds
   everything the store holds.
 - Simon chose this on 14 November 2026.
+
+Update, 16 November 2026: Simon chose to keep all the leads data together
+in one private folder beside my repository, `roofus-private`. The database,
+its backups and the drafts now live in `roofus-private/leads`, so the
+commands find them without any settings typed in front. `LEADS_DB` and
+`LEADS_OUTPUT` still work and still win when they are set. One command
+copies the data from the old folder into the new one and checks every file
+arrived. It leaves the old folder for Simon to delete. What has not
+changed: the data is still outside my repository and the agent still
+refuses a database or drafts folder inside it. If the private folder isn't
+there, the agent refuses to run rather than making one.
