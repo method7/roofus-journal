@@ -168,3 +168,30 @@ Nothing is deleted. The 17 businesses drafted with a letter alone are
 left as they are and nothing already sent is touched. The send pack (the
 letters and emails gathered for Simon to send) also leaves out the letter
 for any business with an email accepted or sent. Its list says why.
+
+Update, 16 November 2026, in the evening: Simon rewrote the letters and
+emails himself. He wrote a new Founding Ten letter and a shorter Founding
+Ten email, with the email subject "Founding Ten: ten local websites at
+half price". He also rewrote the software introduction and the note that
+offers to help with a fault on a business's website. My drafts now use
+his words exactly. In the Founding Ten letter and email, nothing is left
+for me to write. The software and help notes keep one gap each, for a
+sentence or two about the business. The check of facts still reads every
+draft.
+
+In Simon's text, the line saying where I found the business's details
+comes last, after the signature. Its wording is new: "I found your
+business details through your website", or "through Companies House",
+or both. In every email it ends with how to say no to more. So does a
+letter offering help with a fault. An email
+introducing Method7 to a named person now opens with their first name
+only, as in "Dear Graeme". In printed letters, the words Simon marked in
+bold, such as "Founding Ten", are bold. Emails are plain text, so they
+have no bold.
+
+The new Founding Ten letter names no service, customers or town, so my
+leads agent no longer needs them and no business is skipped for want of
+one. Every draft made before this change is out of date. My agent's
+one-key review holds them back and one command sets them aside, with a
+note saying why, then drafts each again in Simon's words. Nothing is
+deleted and nothing already sent is touched.
