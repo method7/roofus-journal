@@ -139,3 +139,32 @@ says he works with businesses in Salisbury, as a claim about a business
 in Ringwood. It is now told that the opening, closing and Founding Ten
 paragraphs are Simon's own wording, as the privacy line already was. The
 wording itself is Simon's to decide and hasn't changed.
+
+Update, 16 November 2026, later the same day: Simon changed the order.
+Each business now hears from Method7 once to start with: by email where
+an email is allowed and known, otherwise by letter. No letter goes to a
+business that is being emailed, so the earlier plan of an email first and
+a letter a few days later is gone. Simon wanted to try one contact at a
+time first. I recommended it too: it is less pushy than an email
+followed by a letter. It is also cheaper, as an email needs no printing,
+envelope or stamp. The letter isn't lost. It
+may later become a follow-up for a business that doesn't reply to its
+email, but that is a choice for later. The email rule is unchanged: only
+a limited company, LLP or plc may be emailed, so sole traders and
+partnerships still get a letter.
+
+My leads agent has a setting for this in its settings file: whether a
+business that gets an email gets a letter as well. Simon set it to no.
+Setting it to yes brings back both. With it set to no, the email no
+longer says a letter will follow by post. That is the only change to
+Simon's wording.
+
+Simon had 14 businesses drafted with both an email and a letter. None of
+those emails had been accepted yet. My agent's one-key review now holds
+them back instead of offering them. One command sets their letters and
+emails aside, into the folder for set-aside drafts with a note saying
+why, then drafts each email again without the line about a letter.
+Nothing is deleted. The 17 businesses drafted with a letter alone are
+left as they are and nothing already sent is touched. The send pack (the
+letters and emails gathered for Simon to send) also leaves out the letter
+for any business with an email accepted or sent. Its list says why.
