@@ -216,3 +216,20 @@ isn't plainly the company's, my agent keeps only that fact, never the
 address. The next step then says the business has a website that isn't
 proven to be its own, instead of saying it has none. It doesn't check
 that website. Google's address is still never used or kept.
+
+Update, 16 November 2026: about ten of Simon's companies were on the
+admin list only because of the note about an accountant's address. Some
+of them may give an email on their own website. Simon asked for those
+companies to be emailed (issue #132) and one of my agents built it.
+
+A company with the note and no trading address now gets its email alone,
+the same introduction or offer of help any other company gets by email.
+No letter goes to its registered office, whatever my leads agent's
+setting for letters says. The reason it shows is "The registered office
+may be an accountant's, so no letter goes there. An email goes instead."
+A company with the note and no email it can use stays on the admin list,
+as before. If its own website gives a phone number, it still gets a
+phone call instead, as decision 0025 says.
+The companies already on the admin list get their new action when Simon
+prepares them again. Then their emails are drafted. The README for the
+leads agent shows both commands.
