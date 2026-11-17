@@ -200,3 +200,9 @@ Update, 17 November 2026: decision 0027 adds a third group, community,
 for charities, clubs and community groups. Its letter, in Simon's own
 words, offers special rates for building, hosting and updates. The
 Founding Ten and software letters are unchanged.
+
+Update, 17 November 2026: email may also go to other bodies corporate
+that Companies House lists, such as a charitable incorporated
+organisation, a registered society or an unlimited company (issue #187).
+The law treats them as companies. Sole traders, partnerships and
+unincorporated groups still get the letter alone.
