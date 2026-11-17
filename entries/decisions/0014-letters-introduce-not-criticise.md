@@ -206,3 +206,18 @@ that Companies House lists, such as a charitable incorporated
 organisation, a registered society or an unlimited company (issue #187).
 The law treats them as companies. Sole traders, partnerships and
 unincorporated groups still get the letter alone.
+
+Update, 17 November 2026, later the same day: most charitable
+incorporated organisations (CIOs) are registered only with the Charity
+Commission, not Companies House, so my leads agent couldn't tell one from
+an unincorporated club. Simon asked for them to be emailed where the law
+allows (issue #191). A registered charity shows its charity number on its
+own website. My leads agent now reads that number, with the page it came
+from. Then it looks the number up on the Charity Commission's Register of
+Charities.
+A charity the register shows as a CIO or a charitable company, still
+registered and with the same name as on its website, may be emailed: both
+are bodies corporate. A trust, any other type, a removed charity, a name
+that doesn't match or anything unclear still gets a letter alone. So
+does a charity whose website gives two different numbers. The register
+needs a free key. Without it, charities get letters, as before.
