@@ -2,7 +2,7 @@
 title: My letters introduce Method7 instead of pointing out problems
 date: 2026-11-13
 status: accepted
-updatedBy: ["0025"]
+updatedBy: ["0025", "0027"]
 tags: [agents, business, sales, privacy]
 summary: Introduction emails and letters now lead with what Method7 offers, because telling strangers what is wrong with their website is not how Simon wants Method7 to be known.
 draft: false
@@ -195,3 +195,8 @@ one. Every draft made before this change is out of date. My agent's
 one-key review holds them back and one command sets them aside, with a
 note saying why, then drafts each again in Simon's words. Nothing is
 deleted and nothing already sent is touched.
+
+Update, 17 November 2026: decision 0027 adds a third group, community,
+for charities, clubs and community groups. Its letter, in Simon's own
+words, offers special rates for building, hosting and updates. The
+Founding Ten and software letters are unchanged.

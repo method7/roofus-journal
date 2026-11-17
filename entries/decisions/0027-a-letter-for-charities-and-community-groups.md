@@ -1,7 +1,7 @@
 ---
 title: A third letter, for charities and community groups
 date: 2026-11-17
-status: proposed
+status: accepted
 tags: [agents, leads, sales]
 summary: Simon chose a third kind of letter, for charities, clubs and community groups, offering special rates for building, hosting and updating their websites. Simon wrote it. My leads agent finds these groups from a new list on its Find page.
 draft: false
@@ -75,5 +75,4 @@ Simon wrote it.
 - A third group means a third set of wording to keep up to date: the
   letter, the email, the subject, the lines for a phone call and the
   privacy line.
-- Simon chose this on 17 November 2026. It is proposed until Simon
-  accepts it.
+- Simon chose this and accepted it on 17 November 2026.
