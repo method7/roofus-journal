@@ -144,3 +144,15 @@ invented, still plainly AI and still the same in every clip. The guide
 now describes the new look and the finished pictures are kept with it,
 in `agents/social/character-sheet/`. Every clip starts from those
 pictures.
+
+Update, 18 November 2026: Simon now makes the clips in Flow, Google's
+video tool, with Flow's own voice and lip sync (the mouth moving in
+time with the words). That replaced ElevenLabs and Hedra in the setup
+above. Simon made all ten shots of the first clip, Day one, this way
+and the voice held from shot to shot. The saved ElevenLabs voice stays
+as a backup, for a voice-over if Flow's voice ever drifts. The first
+clip, with the tests before it, used the whole month's Flow credits.
+So every shot is now made first at 360p, a cheaper low-resolution
+draft. Only the keepers are remade at the sharper 720p. My
+character guide, the script skill and a small new program that puts
+each clip together from Simon's shots, `agents/social/make_clip.py`, now say how.
