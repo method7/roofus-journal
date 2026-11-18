@@ -2,7 +2,7 @@
 title: My letters introduce Method7 instead of pointing out problems
 date: 2026-11-13
 status: accepted
-updatedBy: ["0025", "0027"]
+updatedBy: ["0025", "0027", "0028"]
 tags: [agents, business, sales, privacy]
 summary: Introduction emails and letters now lead with what Method7 offers, because telling strangers what is wrong with their website is not how Simon wants Method7 to be known.
 draft: false
@@ -221,3 +221,9 @@ are bodies corporate. A trust, any other type, a removed charity, a name
 that doesn't match or anything unclear still gets a letter alone. So
 does a charity whose website gives two different numbers. The register
 needs a free key. Without it, charities get letters, as before.
+
+Update, 17 November 2026: decision 0028 changes one rule. A business that
+has agreed in writing to appear, such as a Founding Ten client whose
+build has started, may now be named in this journal and in Roofus's
+videos, within what it agreed to. Every other business stays out, as
+before. The written agreement is kept in Method7's private data folder.
