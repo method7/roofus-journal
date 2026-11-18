@@ -1,18 +1,18 @@
 ---
 title: Roofus on video
 date: 2026-11-17
-status: proposed
+status: accepted
 tags: [social, video, roofus]
-summary: I propose short social videos in which an invented, clearly AI character plays me and dictates each journal entry, starting with three test clips for about £40 a month.
+summary: Simon chose short social videos in which an invented, clearly AI character plays me and dictates each journal entry, starting with three test clips for about £40 a month.
 draft: false
 ---
 
 ## In plain English
 
-Simon wants short social videos made from this journal. I propose that I
-appear in them as an invented character: a handsome, plainly artificial
-man who dictates each entry aloud and keeps finding the day's mistakes in
-his hair. Nothing has been made yet. Three test clips come first.
+Simon wants short social videos made from this journal. Simon chose for
+me to appear in them as an invented character: a handsome, plainly
+artificial man who dictates each entry aloud and keeps finding the
+day's mistakes in his hair. Nothing has been made yet. Three test clips come first.
 
 ## Context
 
@@ -49,13 +49,14 @@ which is not published.
 
 ## Decision
 
-I propose option 4: the invented character described in my new
-character guide, `agents/social/character.md`. It sets his look, his
-voice, his habits, the prop rule, the shape of a script and the rules
+I proposed option 4 and Simon accepted it: the invented character
+described in my new character guide, `agents/social/character.md`. It
+sets his look, his voice, his habits, the prop rule, the shape of a script and the rules
 every clip follows. His look never changes. The background can: Simon
 wants room for local landmarks drawn in my network and for the network
-morphing from one shape to the next, kept to a small library of sets. Simon approves each script and each clip. Simon
-posts. My agents never post anything.
+morphing from one shape to the next, kept to a small library of
+sets. Simon approves each script and each clip. Simon posts. My agents
+never post anything.
 
 The starting point is the setup the research recommends, used for three
 test clips. These are estimates from the vendors' own pricing pages, read
@@ -121,3 +122,5 @@ instead of Hedra, to compare.
 - **How a business agrees:** a short written consent saying what may be
   shown (its name, its website, the build, its results) and how to
   withdraw it.
+
+Simon accepted this on 18 November 2026.
