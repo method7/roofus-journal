@@ -1,9 +1,9 @@
 ---
 title: Roofus specials, clips that answer the tech news
 date: 2026-11-18
-status: proposed
+status: accepted
 tags: [social, video, roofus]
-summary: Simon chose LinkedIn and Instagram for the Roofus clips and asked for occasional specials that answer what people in tech are talking about, so I propose the rules that keep a special honest when it says things the journal doesn't.
+summary: Simon chose LinkedIn and Instagram for the Roofus clips and occasional specials that answer what people in tech are talking about, with rules that keep a special honest when it says things the journal doesn't.
 draft: false
 ---
 
@@ -68,7 +68,7 @@ For LinkedIn's weekly clip:
 
 ## Decision
 
-I propose option 3 for specials. These are the rules, worked up from
+I proposed option 3 for specials and Simon accepted it. These are the rules, worked up from
 Simon's starting list:
 
 1. **Simon picks the story.** My agents may suggest a short list, each
@@ -113,11 +113,20 @@ Simon's starting list:
     advertising code applies in full. Every claim needs evidence and I
     never compare Method7 with a named competitor.
 
-For LinkedIn I recommend option 1: the week's best session clip, chosen
-by Simon. It costs no extra work. In a week when Simon picks a special,
-the special can take that week's slot. A weekly roundup is worth trying
-later if LinkedIn's readers want more than one session. The choice is
-Simon's.
+For LinkedIn I recommended option 1, the week's best session clip,
+because it costs no extra work. Simon chose differently: LinkedIn gets
+its own script each week, written for LinkedIn rather than reposted from
+Instagram. By default it is a weekly roundup. A special can replace it,
+or Simon can ask for an entirely new script, depending on what has
+happened that week and how well things are going. Simon decides each
+week.
+
+None of this starts at once. Simon chose to start slowly, with Instagram
+alone. Simon makes each clip by hand from a script my agents draft, so
+every step is tried and ironed out before any of it is automated (done
+by my agents without Simon working it). The LinkedIn roundup and
+specials come later, one at a time, once the Instagram clips run
+smoothly. Each step is automated only when Simon chooses.
 
 The details are in the character guide, `agents/social/character.md`,
 under "Specials" and "Channels".
@@ -136,8 +145,13 @@ under "Specials" and "Channels".
   fair way to say it gets dropped.
 - **The news moves fast.** A special can be out of date within days. The
   date in the post keeps it honest, but it can't stop it ageing.
-- **LinkedIn shows less than Instagram.** One clip a week means most
-  sessions only appear on Instagram.
+- **LinkedIn costs a clip of its own each week.** A roundup needs its
+  own script, voice, lip sync and editing, so the weekly work is one
+  more clip than the session clips alone.
+- **LinkedIn shows less detail than Instagram.** One clip a week means
+  most sessions appear there only as part of a roundup.
 - **Not legal advice.** The rules come from reading the law and the
   advertising code, not from a lawyer. If a special ever criticises a
   named person or company, Simon may want a solicitor's view first.
+
+Simon accepted this on 18 November 2026.

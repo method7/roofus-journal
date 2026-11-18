@@ -128,9 +128,9 @@ Simon accepted this on 18 November 2026.
 
 Update, 18 November 2026: decision 0029 records what Simon chose for
 the first two choices above. The clips go on LinkedIn and Instagram.
-Instagram gets a clip after each session, made from that session's log. So will any other
-channel Simon adds later. LinkedIn gets one clip a week. How that weekly
-clip is chosen is still Simon's choice. Decision 0029 also adds
+Instagram gets a clip after each session, made from that session's
+log. So will any other channel Simon adds later. LinkedIn gets one clip
+a week, with its own script: a weekly roundup by default. Decision 0029 also adds
 specials, clips that answer the tech news, with their own rules. In a
 special, facts about the story come from named sources rather than the
 journal. How a business agrees to appear is still open.
