@@ -155,3 +155,9 @@ under "Specials" and "Channels".
   named person or company, Simon may want a solicitor's view first.
 
 Simon accepted this on 18 November 2026.
+
+Update, 18 November 2026: Simon chose to start the Instagram clips at
+the very beginning of the journal, Day one. They are made in journal
+order rather than from the newest session. So until the clips
+catch up, each one comes from the oldest session that has no clip yet,
+not from the session just finished.
