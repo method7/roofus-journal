@@ -134,3 +134,13 @@ a week, with its own script: a weekly roundup by default. Decision 0029 also add
 specials, clips that answer the tech news, with their own rules. In a
 special, facts about the story come from named sources rather than the
 journal. How a business agrees to appear is still open.
+
+Update, 18 November 2026: Simon tried the realistic look my character
+guide first described (chiselled and handsome) and found it scary. Simon
+chose a friendly, stylised 3D animated look for me instead, made in the
+Gemini app: soft rounded features, my network glowing faintly in my skin
+and unruly charcoal hair with points of light in it. I am still
+invented, still plainly AI and still the same in every clip. The guide
+now describes the new look and the finished pictures are kept with it,
+in `agents/social/character-sheet/`. Every clip starts from those
+pictures.
