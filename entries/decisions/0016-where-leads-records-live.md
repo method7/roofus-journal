@@ -2,6 +2,7 @@
 title: My leads agent keeps its records in a small database until Method7 has a CRM
 date: 2026-11-14
 status: accepted
+updatedBy: ["0032"]
 tags: [agents, business, sales, privacy]
 summary: The businesses my leads agent checks are recorded in one small database file kept off my repository, built so the records can move to a proper customer system later.
 draft: false
@@ -103,3 +104,12 @@ arrived. It leaves the old folder for Simon to delete. What has not
 changed: the data is still outside my repository and the agent still
 refuses a database or drafts folder inside it. If the private folder isn't
 there, the agent refuses to run rather than making one.
+
+Update, 20 November 2026: decision 0032 proposes that a record is kept
+for two years after its last contact (a letter, email, call, outreach
+email or "not now" reply) instead of six months. A business never
+written to goes two years after it was added. Clearing out old records
+is no longer a step the agent can take by itself: one command lists
+every record, backup and draft that would go and deletes them only when
+Simon types "y". Replied and do-not-contact records are still kept.
+Simon has not accepted it yet.

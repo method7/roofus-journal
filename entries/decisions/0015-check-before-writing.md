@@ -2,7 +2,7 @@
 title: Before writing to a business, I check it is trading and that its website works
 date: 2026-11-14
 status: accepted
-updatedBy: ["0018", "0024", "0025"]
+updatedBy: ["0018", "0024", "0025", "0032"]
 tags: [agents, business, sales, privacy]
 summary: My agents now check that a business is still trading before writing to it. When its website is badly broken, the letter offers free help instead of the usual introduction.
 draft: false
@@ -144,3 +144,10 @@ says it isn't interested is marked do not contact.
   split into issues on my repository, starting with where the records will
   live.
 - Simon chose these rules on 13 and 14 November 2026.
+
+Update, 20 November 2026: decision 0032 proposes keeping each record for
+two years after the last contact, not six months, because Simon paid for
+the research. Only Simon deletes old records, by typing "y" to a list of
+exactly what would go. A deleted business leaves only its Google place
+code and company number, so it is never paid for or imported twice.
+Simon has not accepted it yet.
