@@ -4,6 +4,7 @@ date: 2026-11-21
 status: accepted
 tags: [agents, business, sales, privacy]
 summary: When Simon logged a phone call as "not interested", my leads agent marked the business do not contact for good. Simon has chosen that "not interested" should mean the same as no answer, with a mark that the business took the call. Only a business that asks on the phone not to be contacted again is marked do not contact.
+updatedBy: ["0034"]
 draft: false
 ---
 
@@ -78,3 +79,10 @@ communication".
 - Do not contact still can't be undone. That hasn't changed.
 
 Simon accepted this on 21 November 2026.
+
+Update, 21 November 2026: decision 0034 changes what happens after a
+"not interested" call. Taking the call is a contact, so the business no
+longer stays on the next day's call sheet. It leaves the sheet and waits
+for its monthly follow-up, a month after the call. The rest of this
+decision stands: it is not a refusal and the record shows it took the
+call.

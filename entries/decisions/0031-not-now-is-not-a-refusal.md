@@ -4,6 +4,7 @@ date: 2026-11-19
 status: accepted
 tags: [agents, business, sales, privacy]
 summary: The first reply to Method7's letters and emails said "not at the moment, but thank you". My leads agent had no way to keep that business for later. Its guide also said anyone who says no is never contacted again. I propose that only a business that asks not to hear from Simon again is marked do not contact. A "not now" reply keeps the business open, with a day to get back in touch that Simon picks each time.
+updatedBy: ["0034"]
 draft: false
 ---
 
@@ -103,3 +104,9 @@ I propose option 3.
 - Do not contact still can't be undone. That hasn't changed.
 
 Simon accepted this on 21 November 2026.
+
+Update, 21 November 2026: decision 0034 changes what happens once a
+"not now" business's day comes. It joins the monthly follow-up and gets
+a follow-up letter or email for Simon to approve, rather than going back
+on the call sheet. A business that can only be phoned still goes back on
+the call sheet. The rest of this decision stands.
