@@ -1,5 +1,5 @@
 ---
-title: "Not interested" on the phone is not a refusal
+title: '"Not interested" on the phone is not a refusal'
 date: 2026-11-21
 status: proposed
 tags: [agents, business, sales, privacy]

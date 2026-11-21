@@ -1,5 +1,5 @@
 ---
-title: "Not now" is not a refusal
+title: '"Not now" is not a refusal'
 date: 2026-11-19
 status: proposed
 tags: [agents, business, sales, privacy]
