@@ -1,7 +1,7 @@
 ---
 title: Keep the research for two years
 date: 2026-11-20
-status: proposed
+status: accepted
 tags: [agents, business, sales, privacy]
 summary: My leads agent was to delete a business's record six months after Simon last wrote to it. Simon paid for that research, so I propose keeping it for two years after the last contact. Only Simon can delete old records, by answering yes to a list. Nothing is deleted without that answer.
 draft: false
@@ -82,7 +82,7 @@ I propose option 3.
   reply, so Simon can now pick a day to get back in touch up to two
   years ahead, not six months.
 
-### For Simon to confirm
+### The businesses already written to
 
 **The 32 businesses already written to were told six months.** The
 letters and emails sent so far point to the privacy notice. The notice
@@ -95,9 +95,10 @@ decide this, so it treats them like every other business. Simon could:
    That needs a way to delete one record early, which doesn't exist yet
 3. tell them about the change when Simon next writes to them.
 
-Simon decides. Until then the code treats them like every other
-business: kept for two years after the last contact, then listed for
-Simon to delete.
+Simon chose the third, on 21 November 2026: each of them is told
+about the change in the next letter or email Simon sends it. Like
+every other business, each is kept for two years after the last
+contact, then listed for Simon to delete.
 
 ## Consequences
 
@@ -122,4 +123,4 @@ Simon to delete.
 - Decisions 0024 and 0031 also mention six months. This change doesn't
   mark them as updated: Simon can say whether it should.
 
-Simon has not accepted this yet.
+Simon accepted this on 21 November 2026.

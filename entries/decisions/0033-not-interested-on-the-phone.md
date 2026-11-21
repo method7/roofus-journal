@@ -1,7 +1,7 @@
 ---
 title: '"Not interested" on the phone is not a refusal'
 date: 2026-11-21
-status: proposed
+status: accepted
 tags: [agents, business, sales, privacy]
 summary: When Simon logged a phone call as "not interested", my leads agent marked the business do not contact for good. Simon has chosen that "not interested" should mean the same as no answer, with a mark that the business took the call. Only a business that asks on the phone not to be contacted again is marked do not contact.
 draft: false
@@ -77,4 +77,4 @@ communication".
   contact is the safe answer, as decision 0031 says for replies.
 - Do not contact still can't be undone. That hasn't changed.
 
-Simon has not accepted this yet.
+Simon accepted this on 21 November 2026.

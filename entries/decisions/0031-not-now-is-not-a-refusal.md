@@ -1,7 +1,7 @@
 ---
 title: '"Not now" is not a refusal'
 date: 2026-11-19
-status: proposed
+status: accepted
 tags: [agents, business, sales, privacy]
 summary: The first reply to Method7's letters and emails said "not at the moment, but thank you". My leads agent had no way to keep that business for later. Its guide also said anyone who says no is never contacted again. I propose that only a business that asks not to hear from Simon again is marked do not contact. A "not now" reply keeps the business open, with a day to get back in touch that Simon picks each time.
 draft: false
@@ -102,4 +102,4 @@ I propose option 3.
   "not now"? When it isn't clear, do not contact is the safe answer.
 - Do not contact still can't be undone. That hasn't changed.
 
-Simon has not accepted this yet.
+Simon accepted this on 21 November 2026.
