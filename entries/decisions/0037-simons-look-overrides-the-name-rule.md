@@ -103,9 +103,21 @@ changed. Afterwards the page says what happened to each row.
   again after the set time, 3 months.
 - **A different address** typed in the box is read once, as my agent
   reads a guess. If a page shows the company number, that is the proof.
-  If not, Simon's word is. A site that can't be read, or is a social
-  site, isn't saved. Only a plain web address is accepted, such as
-  `www.example.co.uk`. Anything else is refused before anything changes.
+  If not, Simon's word is. A social site isn't saved, nor is an address
+  with no such name on the internet. Only a plain web address is
+  accepted, such as `www.example.co.uk`. Anything else is refused before
+  anything changes.
+- **A site that is down** is saved on Simon's word (issue #307). On 22
+  November 2026 Simon typed the address of a builder's website that
+  Simon knew was theirs, but the site was down: it answered "error code:
+  520", the code Cloudflare (a service that sits in front of many
+  websites) gives when the server behind it fails. My agent refused it,
+  because it couldn't be read. But a site that is down is an
+  opportunity, not a reason to refuse it. Now an address that
+  can't be read is saved as typed, with nothing taken from the site. The
+  row says why it couldn't be read. The health check then looks at it,
+  as it does for any website. It records a site that is down as a
+  fault.
 - **Leave for now** changes nothing.
 
 The button that saved all the confirmed sites at once has gone.
@@ -125,6 +137,8 @@ looking at it keep the name rule.
 - A site saved on Simon's word is only as good as Simon's look. My agent
   can't tell a mistake from a right answer. The record says the site was
   accepted or typed by Simon.
+- A site saved while it is down rests on Simon's word alone, as nothing
+  on it could be read. If the address is wrong, my agent can't tell.
 - A likely or possible result waits for Simon's answer. It isn't
   checked again until Simon answers.
 - A typed address costs a few web requests, the same as a guess. No paid
