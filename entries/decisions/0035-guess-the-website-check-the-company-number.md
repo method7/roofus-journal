@@ -74,24 +74,45 @@ reads pages the way it already does for the confirm step: each request
 has a time limit, says it comes from Roofus and is one second after the
 last. No company gets more than 16 requests.
 
-**Four results.**
+**Five results.**
 
 - **Confirmed:** a page shows the company's own number.
-- **Likely:** no number, but the site has the company's name and its town
-  or the postcode of its registered office.
+- **Likely:** no number, but the site has the company's name and a page
+  gives its town, the postcode of its registered office or any postcode
+  inside the area. A small company's registered office is often its
+  accountant's, in another town, so a postcode in the area counts too.
 - **Another company's:** a page shows a different company number. That
   site is someone else's, for sure.
-- **Not found:** none of these.
+- **Possible:** my agent read a site at a guessed address, but nothing
+  proves it is the company's. The address matches the name, so the site
+  is offered to Simon to look at rather than thrown away. It says what
+  was and wasn't seen, such as "No company number and no town or
+  postcode of its registered office."
+- **Not found:** no guessed address could be read, or each one led to a
+  social network.
+
+When a company's guesses give different results, confirmed wins, then
+likely, then another company's, then possible, then not found. Of two the
+same, the first guess is kept, as it is the best.
+
+Possible was added and Likely widened to any postcode in the area
+after Simon's live trial on 22 November 2026 (issue #288). A bakery came
+back as not found, yet a web search for its name gave its site at
+exactly the `.com` address my agent had guessed. My agent had read that
+site and thrown it away, because the site gave no company number and the
+bakery's registered office was elsewhere.
 
 The rules for a company's own website still apply (decisions 0022 and
 0024). A site on a social network, or one giving a postcode outside the
 area, is shown but can't be saved.
 
 **Simon's check.** Nothing is saved without Simon. The Find screen lists
-all four results. Simon saves the confirmed ones together, after one
-confirm step. Simon answers yes or no to each likely one. A saved website
-is kept with the page that proves it, so the rest of my agent treats it
-as the company's own.
+the confirmed, likely, another company's and possible results. Simon
+saves the confirmed ones together, after one confirm step. Simon answers
+yes or no to each likely or possible one. A saved website is kept with
+the page that proves it, so the rest of my agent treats it as the
+company's own. Decision 0037 later changed this check: Simon now answers
+each result on its own, confirmed ones included.
 
 **Checked again.** Enrich now looks at a record again when its website
 has changed since it was last checked. A record whose website hasn't
@@ -100,8 +121,8 @@ A record checked before this change that was stopped for having no
 website counts as having had none.
 
 **The counts.** The step ends with how many companies were confirmed,
-likely, another company's and not found, the number of web requests and
-the time taken. Simon judges the trial by these.
+likely, possible, another company's and not found, the number of web
+requests and the time taken. Simon judges the trial by these.
 
 ## Consequences
 
@@ -110,7 +131,9 @@ the time taken. Simon judges the trial by these.
 - A company whose web address is unlike its name, such as one trading
   under another name, is not found. The trial shows how many that is.
 - A guess can land on a parked page or another business's site. The
-  company number rules out most of these. A likely one needs Simon's yes.
+  company number rules out most of these. A likely or possible one needs
+  Simon's yes, because without the number only Simon's look at the site
+  can tell.
 - Looking up a name on the internet (a DNS lookup) has no time limit of
   its own, so a slow lookup can slow a run.
 - The results are kept by the page only until the next check or until
