@@ -3,7 +3,7 @@ title: The reviewer's note on a business's website briefs my leads agent's resea
 date: 2026-11-22
 status: proposed
 tags: [agents, leads, sales, safety]
-summary: While reviewing the websites my leads agent finds, the reviewer can now log the address, an email and a note in their own words. A note flags the record for research. In two later steps a research stage will be briefed by the note and the email or letter will be drafted from it. Only the reviewer's note gives the research its orders. Anything read from a business's website is data. An email the reviewer types can be used to contact the business. Its privacy line says truthfully where it was found.
+summary: While reviewing the websites my leads agent finds, the reviewer can now log the address, an email and a note in their own words. A note is kept on the record for the research step. In two later steps a research stage will be briefed by the note and the email or letter will be drafted from it. Only the reviewer's note gives the research its orders. Anything read from a business's website is data. An email the reviewer types can be used to contact the business. Its privacy line says truthfully where it was found.
 draft: false
 ---
 
@@ -14,8 +14,8 @@ something worth telling the business about: a site that is down, or a
 menu with pages missing. Until now there was nowhere to write it down.
 
 Now each row has an **Email** box and a **Note** box under the website.
-The note is Simon's own words about what was noticed and where. A record
-with a note is flagged for research. Later, a research stage will read
+The note is Simon's own words about what was noticed and where. It is
+kept on the record for the research step. Later, a research stage will read
 the note, look at the business's site and check what it finds. Later
 still, the email or letter will be drafted from the note and the
 research. This decision records all three steps. Only the first is
@@ -51,7 +51,7 @@ Simon had seen were lost as soon as the page moved on.
 
 Simon chose option 2 on 22 November 2026 (issue #292). Simon's point
 was that the research agent is briefed from the note. The standard
-checks run on every flagged site anyway. A dropdown would only repeat the
+checks run on every site anyway. A dropdown would only repeat the
 list of checks. The note needs to say what was noticed and where, which a
 list can't.
 
@@ -87,9 +87,20 @@ website and Decline says it isn't theirs.
   health check. Each one keeps the day, the note as typed, the website
   being looked at (or none) and who reviewed. A record keeps every note,
   newest first.
-- A record with a note is flagged for research. The Websites found page
-  lists the flagged records with each one's newest note and the record's
-  own page shows them all. Nothing else about the record changes yet.
+- A note is kept on the record for the research step, which reads the
+  notes from the record. The Websites found page keeps no list of noted
+  records. Each row on it shows its record's notes, under "Notes for
+  research, newest first". The record's own page shows them all.
+  Nothing else about the record changes yet.
+
+At first a record with a note was flagged for research and the Websites
+found page listed those records on a tab of their own, Flagged for
+research. A record answered with a note then showed on two tabs. On 22
+November 2026 Simon asked what that list was for, as every answered
+record goes through research anyway. Every
+saved website goes on to research. The note only tells the research what
+to look at first and the research reads it from the record. So the tab
+went (issue #324) and each note shows on its own row instead.
 
 **B: research from the note (a later issue).** A research stage is
 briefed by the note. It reads the business's own site the way a
@@ -124,8 +135,8 @@ Without it the record says "the reviewer".
   partnership. It rests on the reviewer's
   word that the address is public. Its privacy line says where it came
   from, so a business can see how it was found.
-- Flagged records wait until step B is built. Until then a note is kept
-  and shown. It changes nothing else.
+- Notes wait on their records until step B is built. Until then a note
+  is kept and shown. It changes nothing else.
 - The facts saved in step B could later make a full written report for
   the business, built from the same facts the email or letter uses.
 
