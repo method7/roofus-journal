@@ -63,8 +63,8 @@ an optional Note box of up to 1,000 characters. They are saved with the
 row's other answers, through the usual check before anything changes,
 which says how many emails and notes will be saved. They can be saved
 on a row left on Leave for now, or on a not-found row with no address
-typed. A note with Decline is refused, because a note is about their
-website and Decline says it isn't theirs.
+typed. A note with Decline is kept too, marked as being about a site
+that isn't theirs (see below).
 
 - The email is kept like the other emails my agent holds, with the same
   refusals: a placeholder such as `info@email.com` is never kept. Its
@@ -102,6 +102,32 @@ saved website goes on to research. The note only tells the research what
 to look at first and the research reads it from the record. So the tab
 went (issue #324) and each note shows on its own row instead.
 
+At first, too, a note with Decline was refused, because the note is kept
+with the row's website and the research step would read that site as
+the business's own. One wrong row also stopped the whole save, so
+nothing was kept, not even the other rows' answers, emails and notes.
+On 22 November 2026 Simon declined two guesses that were other
+companies' websites abroad and wrote notes with the details. The save
+was refused and none of the notes was kept. Simon said "the whole save was
+ditched ... this is supposed to save the user time". So two things
+changed (issue #328):
+
+- **A note with Decline is kept.** It says why the site isn't theirs,
+  such as "a roofing firm in Spain with the same name". It is kept with
+  the declined website and marked as being about a site that isn't
+  theirs, so the research step can tell. The record's page and the row
+  show it as "About example.co.uk, which isn't theirs: ..." and then the
+  note.
+- **A save keeps every row it can.** A row that can't be saved, such as
+  one with a note over 1,000 characters, is left out on its own. The
+  check before anything changes lists the rows it will save and, apart,
+  each row it can't, with why. Everything typed on such a row is shown
+  as plain text to copy, before and after saving, so nothing typed is
+  lost. Only when no row can be saved is nothing changed. Every message
+  names the business with its record number, such as "TESTVILLE TILING
+  LTD (record 293)", linked to its record. The search box finds a record
+  by that number too.
+
 **B: research from the note (a later issue).** A research stage is
 briefed by the note. It reads the business's own site the way a
 visitor's browser does: no forms, no logins and no guessing at hidden
@@ -130,6 +156,8 @@ Without it the record says "the reviewer".
 
 - What Simon notices while reviewing is kept, with the day and the site,
   instead of being lost.
+- One row that can't be saved no longer costs the rest of a save. What
+  was typed on it is shown to copy back (issue #328).
 - An email the reviewer types can be used to contact the business
   straight away, if it is a company rather than a sole trader or
   partnership. It rests on the reviewer's
