@@ -111,8 +111,10 @@ the confirmed, likely, another company's and possible results. Simon
 saves the confirmed ones together, after one confirm step. Simon answers
 yes or no to each likely or possible one. A saved website is kept with
 the page that proves it, so the rest of my agent treats it as the
-company's own. Decision 0037 later changed this check: Simon now answers
-each result on its own, confirmed ones included.
+company's own. Decision 0037 later changed this check. The company
+number is proof either way, so my agent saves a confirmed site and
+counts another company's as not found, without asking. Simon now answers
+each likely and possible result on its own.
 
 **Checked again.** Enrich now looks at a record again when its website
 has changed since it was last checked. A record whose website hasn't
