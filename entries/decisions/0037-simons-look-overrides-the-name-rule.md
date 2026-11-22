@@ -59,23 +59,23 @@ agents built it.
 
 **One list.** Every confirmed, likely and another company's result that
 is waiting sits in one list. Each row shows the company, the guessed site
-as a link that opens in a new tab and what my agent saw. Simon chooses
-**Accept**, **Decline**, **Use a different address** (with a box to type
-it) or **Leave for now**, the default. The results not found are folded
-away below.
+as a link that opens in a new tab, what my agent saw and a box holding
+the address found. Simon chooses **Accept**, **Decline** or **Leave for
+now**, the default. Simon can type a different address in the box. The
+results not found are folded away below.
 
 **One button.** **Save my choices** goes through the usual check before
 anything changes. The check says how many will be accepted, declined and
 changed. Afterwards the page says what happened to each row.
 
-- **Accept** saves the website. A confirmed site keeps the page that
-  shows the company number as its proof. Any other site is saved on
-  Simon's yes. A site on a social network, or one giving a postcode
-  outside the area, still can't be accepted. The row says why and stays
-  waiting.
+- **Accept** saves the address in the box. A confirmed site keeps the
+  page that shows the company number as its proof. Any other site is
+  saved on Simon's yes. A site on a social network, or one giving a
+  postcode outside the area, still can't be accepted as it is. The row
+  says why and stays waiting.
 - **Decline** sends the record back to not found. My agent checks it
   again after the set time, 3 months.
-- **Use a different address** reads the typed address once, as my agent
+- **A different address** typed in the box is read once, as my agent
   reads a guess. If a page shows the company number, that is the proof.
   If not, Simon's word is. A site that can't be read, or is a social
   site, isn't saved. Only a plain web address is accepted, such as
