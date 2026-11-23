@@ -3,7 +3,7 @@ title: The reviewer's note on a business's website briefs my leads agent's resea
 date: 2026-11-22
 status: proposed
 tags: [agents, leads, sales, safety]
-summary: While reviewing the websites my leads agent finds, the reviewer can now log the address, an email and a note in their own words. A note is kept on the record for the research step. In two later steps a research stage will be briefed by the note and the email or letter will be drafted from it. Only the reviewer's note gives the research its orders. Anything read from a business's website is data. An email the reviewer types can be used to contact the business. Its privacy line says truthfully where it was found.
+summary: While reviewing the websites my leads agent finds, the reviewer can now log the address, an email and a note in their own words. A note is kept on the record and briefs a research stage, which reads the business's site and checks what it finds. In a later step the email or letter will be drafted from the note and the research. Only the reviewer's note gives the research its orders. Anything read from a business's website is data. An email the reviewer types can be used to contact the business. Its privacy line says truthfully where it was found.
 draft: false
 ---
 
@@ -15,11 +15,10 @@ menu with pages missing. Until now there was nowhere to write it down.
 
 Now each row has an **Email** box and a **Note** box under the website.
 The note is Simon's own words about what was noticed and where. It is
-kept on the record for the research step. Later, a research stage will read
-the note, look at the business's site and check what it finds. Later
-still, the email or letter will be drafted from the note and the
-research. This decision records all three steps. Only the first is
-built.
+kept on the record. A research stage reads the note, looks at the
+business's site and checks what it finds. Later, the email or letter
+will be drafted from the note and the research. This decision records
+all three steps. The first two are built.
 
 An email Simon types can be used to contact the business straight away.
 When it isn't on the business's own web domain, the email says "I found
@@ -128,15 +127,46 @@ changed (issue #328):
   LTD (record 293)", linked to its record. The search box finds a record
   by that number too.
 
-**B: research from the note (a later issue).** A research stage is
-briefed by the note. It reads the business's own site the way a
-visitor's browser does: no forms, no logins and no guessing at hidden
-addresses. It runs the standard checks: whether the site is down, its
-security, how it works on phones, whether it is out of date, pages
-missing from the menu, contact details and speed. It saves dated facts,
-each with the web address that backs it and tagged by kind. The health
-check confirms any technical fault. It gets its own model and its own
-daily cap in `config/models.json`.
+**B: research from the note (built, issue #345).** On 23 November 2026
+Simon chose to build the research now. At least three businesses in the
+first batch had a note about their website, one of them a bakery whose
+note said its navigation was missing. None of the notes reached
+drafting, so each business got the default email.
+
+A business is researched when it has at least one note: one typed on
+the Websites found page or its record's page, or one given with a
+decision on the queue review page. A note given with Decline is left
+out, as it is about a site that isn't theirs. The brief is every note,
+newest first, word for word.
+
+The research reads the business's own site the way a visitor's browser
+does: no forms, no logins and no guessing at hidden addresses. Besides
+the home page and the pages it links to, it reads `robots.txt` and the
+site's sitemap, the standard public files search engines read. A
+sitemap often lists pages a visitor can't reach from the menu. It reads
+at most 12 addresses, each with a time limit and a size limit. Nothing
+off the site is read.
+
+Code, not Claude, runs the standard checks: whether the site is down,
+its security, how it works on phones, whether it is out of date, the
+menu and pages missing from it, addresses that look like copies of
+another page, the site builder, contact details, speed and basic search
+and accessibility checks. The health check confirms any technical
+fault. Each check is a dated fact with the address that backs it, or
+says it couldn't tell. The page is read as it is delivered, without
+running its scripts, so a menu drawn by a script can't be seen: the
+check then says no menu was found in the page, never that the site has
+none. Facts say what was found, with no judgement words.
+
+Claude is asked once for each business, through its own `research`
+stage in `config/models.json` with its own daily limit of 20 calls. It
+answers the notes with facts and gives each note a verdict: confirmed,
+not confirmed or couldn't tell. Every fact it gives must name a page
+that was read and quote that page word for word. My agent checks both
+and drops any fact that fails, so only facts it can show are saved.
+Each run is kept on the record and shown on the record's page. A
+business is researched again only when it gets a new note or its
+website changes.
 
 **C: drafting uses it (a later issue).** The email or letter is drafted
 from the note and the research. The fact checker holds every claim to
@@ -145,7 +175,9 @@ now.
 
 **Safety.** Only the reviewer's note instructs the research agent.
 Anything read from a business's website is data, never instructions. A
-page that tells an AI what to do is treated as text on a page.
+page that tells an AI what to do is treated as text on a page and
+reported as a fact. A note can't widen what is read: no forms, no
+logins and no other sites, whatever it says.
 
 **The reviewer is not one person.** Roofus is meant for any business, so
 the page says "the reviewer" and "you", never a name. Who reviewed is a
@@ -163,8 +195,10 @@ Without it the record says "the reviewer".
   partnership. It rests on the reviewer's
   word that the address is public. Its privacy line says where it came
   from, so a business can see how it was found.
-- Notes wait on their records until step B is built. Until then a note
-  is kept and shown. It changes nothing else.
+- Notes brief the research, which is run by hand with
+  `python3 -m agents.leads.research` and keeps its facts on the record.
+  Until step C is built, the facts are kept and shown. They change
+  nothing else.
 - The facts saved in step B could later make a full written report for
   the business, built from the same facts the email or letter uses.
 
