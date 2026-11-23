@@ -3,7 +3,7 @@ title: A monthly run imports brand new companies and drafts their letters
 date: 2026-11-22
 status: proposed
 tags: [agents, leads, sales]
-summary: Each month, once the new Companies House file is out, my leads agent imports a batch of brand new companies, drafts their Starting out letters and checks for websites, without anyone starting each step. It drafts only. Simon still approves and sends every letter.
+summary: Each month, once the new Companies House file is out, my leads agent imports a batch of brand new companies, drafts their Starting out letters and checks for websites, without anyone starting each step. It keeps looking for a website and email for the companies it has written to. It drafts only. Simon still approves and sends every letter.
 draft: false
 ---
 
@@ -28,7 +28,9 @@ The steps already exist and each is run from the web page:
 2. import the brand new companies from it, leaving out shared offices
 3. prepare them, which gives them the Starting out letter
 4. draft their letters
-5. check the websites of the records that are due.
+5. check the websites of the records that are due
+6. read the emails on a business's own website (the harvest), for the
+   reviewer to accept one by one.
 
 Companies House dates the file the 1st of the month, but it can appear a
 few days later. The Mac may be asleep or switched off on the 1st.
@@ -58,13 +60,39 @@ built it. Simon approves the outcome in the pull request.
 again with `--remove`. It asks for no administrator password: the file
 it writes lives in Simon's own Library folder.
 
-**What it does.** It runs the five steps above, in that order, through
+**What it does.** It runs the six steps above, in that order, through
 the same functions the web page uses, so nothing about what each step
 decides changes. The import takes 20 companies a month to start, the
 `monthly_batch` setting, which also caps how many letters Claude is
 asked to check. The run keeps a note in the records of each file it has
-finished with, so a second run the same month only checks websites.
-Before this month's file is out, it says so and only checks websites.
+finished with, so a second run the same month only checks websites
+and looks for emails. Before this month's file is out, it says so and
+does only those.
+
+**Looking again after a letter.** Simon's words, on 22 November 2026:
+"we can monthly run a cron job that tries to find a website - email
+address - if it does then we drop them on the email list". Most brand
+new companies have no website when they are imported, so their first
+letter goes by post. Until now the website check stopped looking at a
+record once it was drafted. Now it also looks at the companies drafted
+or written to by letter that still have no website and no usable email,
+on the same timetable as any other record. A website it saves changes
+nothing else about the record. Then the run reads the websites those
+companies hold for their emails and phone numbers, as the harvest
+already does for a drafted record. Each email waits for the reviewer's
+yes, on the Find page or in the terminal. The run never says yes
+itself.
+
+**Moving to email.** A saved email alone didn't move a company to
+email: the record's stored action still said "not by email now", so
+its next follow-up stayed a letter. I proposed changing only that one
+setting, `email_now`, when the reviewer says yes to an email for a
+company already written to. It applies only to a limited company or
+other body corporate whose action already allows email and post. Simon
+chose that option. Nothing else on the record changes: not its status,
+its drafts, its first contact or who may be emailed. Its next monthly
+follow-up is then an email. A sole trader or a partnership keeps its
+action, so its follow-up stays a letter.
 
 **What it never does.** It never sends, posts or prints anything. Every
 letter waits on the review screen for a yes or no, as before. It never
@@ -82,10 +110,11 @@ stops straight away.
 **What it tells Simon.** Each run writes a short summary in plain words
 to a log file in the private leads folder: the file, how many companies
 were imported, how many were left out for a shared office, the letters
-drafted, the websites found and what is waiting. The overview page shows
-the last run's summary. A Mac notification shows only when the run has
-something new for Simon, such as "18 Starting out letters to approve",
-or when a step failed. A morning with nothing new stays quiet. What the
+drafted, the websites found, the emails found and what is waiting. The
+overview page shows the last run's summary. A Mac notification shows
+only when the run has something new for Simon, such as "18 Starting out
+letters to approve" or "3 emails found, waiting for your yes", or when a
+step failed. A morning with nothing new stays quiet. What the
 run prints goes to a second log file, which starts again once it passes
 1 MB, keeping one older copy, so it never fills the disk.
 
@@ -95,13 +124,13 @@ run prints goes to a second log file, which starts again once it passes
   or so of the file appearing, without anyone starting it.
 - A Mac that is off for days only delays the run. The month's work is
   still done once.
-- The run drafts before it checks websites. The website check, as it
-  stands, looks only at records that haven't been drafted. So the
-  companies whose letters the run has just drafted aren't checked for a
-  website by it. The check also finds a website, not an email. Moving
-  these companies to email once a website and email turn up is still to
-  be built, in issue #325.
-- Simon has a new thing to look at each month: the letters waiting on
-  the review screen.
+- The run drafts before it checks websites, so a company whose letter
+  it has just drafted is checked straight away and again every few
+  months after its letter goes, until a website turns up (issue #325).
+- A company written to by post can move to email once its website shows
+  an email and the reviewer says yes. Until then, its follow-ups stay
+  letters.
+- Simon has new things to look at each month: the letters waiting on
+  the review screen and the emails waiting for a yes.
 
 Simon has not accepted this yet.
