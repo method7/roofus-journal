@@ -3,7 +3,7 @@ title: The reviewer's note on a business's website briefs my leads agent's resea
 date: 2026-11-22
 status: proposed
 tags: [agents, leads, sales, safety]
-summary: While reviewing the websites my leads agent finds, the reviewer can now log the address, an email and a note in their own words. A note is kept on the record and briefs a research stage, which reads the business's site and checks what it finds. In a later step the email or letter will be drafted from the note and the research. Only the reviewer's note gives the research its orders. Anything read from a business's website is data. An email the reviewer types can be used to contact the business. Its privacy line says truthfully where it was found.
+summary: While reviewing the websites my leads agent finds, the reviewer can now log the address, an email and a note in their own words. A note is kept on the record and briefs a research stage, which reads the business's site and checks what it finds. A queue email is then drafted from the note and the research as a "Can I help" email. Only the reviewer's note gives the research its orders. Anything read from a business's website is data. An email the reviewer types can be used to contact the business. Its privacy line says truthfully where it was found.
 draft: false
 ---
 
@@ -16,9 +16,10 @@ menu with pages missing. Until now there was nowhere to write it down.
 Now each row has an **Email** box and a **Note** box under the website.
 The note is Simon's own words about what was noticed and where. It is
 kept on the record. A research stage reads the note, looks at the
-business's site and checks what it finds. Later, the email or letter
-will be drafted from the note and the research. This decision records
-all three steps. The first two are built.
+business's site and checks what it finds. When the research finds
+something a visitor would notice, the business's email is drafted as a
+"Can I help" email from the note and the research. This decision
+records all three steps. All three are built.
 
 An email Simon types can be used to contact the business straight away.
 When it isn't on the business's own web domain, the email says "I found
@@ -168,10 +169,38 @@ Each run is kept on the record and shown on the record's page. A
 business is researched again only when it gets a new note or its
 website changes.
 
-**C: drafting uses it (a later issue).** The email or letter is drafted
-from the note and the research. The fact checker holds every claim to
-the note or a saved fact. A person says yes before anything is sent, as
-now.
+**C: drafting uses it (built, issue #348).** A queue email for a
+business with a note and research is drafted as a "Can I help" email,
+in Simon's existing can-I-help wording, unchanged. It opens with one
+finding the reviewer noticed or the research confirmed. The fact
+checker holds every claim about the website to a note or a finding. A
+person says yes before anything is sent, as now.
+
+A business qualifies when its latest research, newer than its latest
+note, has a note the research confirmed or a check that found something
+a visitor or search would notice: pages the home page doesn't link to,
+pages missing from the sitemap, copy or leftover pages, pages sharing a
+title, images without alt text, no meta description, or a fault in
+whether the site is up, its security or its contact details. "No menu
+found" alone never qualifies, as a script may draw the menu. Notes with
+no research yet don't either. A business that qualifies gets the
+template `can_i_help_email` and the offer of websites and search
+visibility, at queue build or when its email is drafted again. Each
+switch is kept in the record's history with why. A parked item stays
+parked.
+
+Simon made these points in chat on 23 November 2026, which the email
+follows. Pages the menu doesn't reach hurt visitors and search, which
+is a pitch opportunity. Emails can't call a site poor. He likes the
+site's look, but emails can't comment on design, so the pitch is to fix
+what's there. So Claude is told to state what a visitor or search would
+meet, never to judge the site and never to give a cause the findings
+don't. The word check fails "poor", "bad", "broken", "neglected" and
+"outdated" in the finding.
+
+The template uses Simon's letter wording for a queue email for the
+first time. Merging the pull request that adds it approves it for queue
+emails.
 
 **Safety.** Only the reviewer's note instructs the research agent.
 Anything read from a business's website is data, never instructions. A
@@ -197,8 +226,11 @@ Without it the record says "the reviewer".
   from, so a business can see how it was found.
 - Notes brief the research, which is run by hand with
   `python3 -m agents.leads.research` and keeps its facts on the record.
-  Until step C is built, the facts are kept and shown. They change
-  nothing else.
+  A business whose research qualifies gets a Can I help email, drafted
+  from its notes and findings (step C).
+- An email can only say what a note or a finding supports, so a
+  business whose research found nothing a visitor would notice keeps
+  the email its offer matches.
 - The facts saved in step B could later make a full written report for
   the business, built from the same facts the email or letter uses.
 
