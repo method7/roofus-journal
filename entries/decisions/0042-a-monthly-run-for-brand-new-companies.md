@@ -134,3 +134,15 @@ run prints goes to a second log file, which starts again once it passes
   the review screen and the emails waiting for a yes.
 
 Simon has not accepted this yet.
+
+Update, 24 November 2026: since issue #359 (decision 0050), the website
+check in step 5 also saves a likely site, one with the company's name
+that gives its town or a postcode in the area, as it saves one that
+shows the company number. In step 6, the emails and phone numbers of a
+website the website finder saved itself are saved straight away, with
+their pages, instead of waiting for the reviewer's yes. The free mail
+check still runs on each new email. For a company written to by letter
+that may be emailed, its next follow-up becomes an email, as a yes would
+make it. Emails from any other website still wait for the reviewer. The
+summary now says how many emails were saved this way and how many
+websites were saved as likely matches.
