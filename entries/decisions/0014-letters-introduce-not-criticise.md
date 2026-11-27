@@ -2,7 +2,7 @@
 title: My letters introduce Method7 instead of pointing out problems
 date: 2026-11-13
 status: accepted
-updatedBy: ["0025", "0027", "0028"]
+updatedBy: ["0025", "0027", "0028", "0059"]
 tags: [agents, business, sales, privacy]
 summary: Introduction emails and letters now lead with what Method7 offers, because telling strangers what is wrong with their website is not how Simon wants Method7 to be known.
 draft: false
