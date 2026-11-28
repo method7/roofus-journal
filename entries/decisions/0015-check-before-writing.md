@@ -2,7 +2,7 @@
 title: Before writing to a business, I check it is trading and that its website works
 date: 2026-11-14
 status: accepted
-updatedBy: ["0018", "0024", "0025", "0032"]
+updatedBy: ["0018", "0024", "0025", "0032", "0062"]
 tags: [agents, business, sales, privacy]
 summary: My agents now check that a business is still trading before writing to it. When its website is badly broken, the letter offers free help instead of the usual introduction.
 draft: false
@@ -151,3 +151,15 @@ the research. Only Simon deletes old records, by typing "y" to a list of
 exactly what would go. A deleted business leaves only its Google place
 code and company number, so it is never paid for or imported twice.
 Simon has not accepted it yet.
+
+Update, 28 November 2026: Simon decided to stop the letters that offer
+help with a broken website. On 28 November 2026 he said in chat: "drop
+them". The checks above still run and their findings are still kept.
+They just no longer choose a different letter. A business whose website
+has a fault with a clear fix now gets the usual introduction for its
+group, by letter or email. A broken email address it publishes is still
+never used. Any letter offering help that was still waiting to be sent
+is set aside. One already printed but not yet logged as posted is left
+for Simon to log. The emails that offer help, which come from the daily
+queue and the research behind it, carry on unchanged. This is step 7 of
+decision 0062, which Simon has not accepted yet.
